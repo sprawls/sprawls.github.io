@@ -12,18 +12,34 @@ layout: default
     {% assign game_list = game_list | sort:"weight" %}
     {% for game in game_list reversed limit : 10  %}
 
-        <li>
-            <header class="post-header">
-              <h1 class="post-title" itemprop="name headline">{{ game.title }}</h1>
-              <li class="post-meta" itemprop="style headline"">Style : {{ game.style }}</li>
-              <li class="post-meta" itemprop="engine headline">Made with {{ game.engine }}</li>
-              <li class="post-meta" itemprop="release headline"> {{ game.year }}</li>
-            </header>
+      <div class = post-container>
 
-            <div class="post">
-            {{ game.content }}
-            </div>
-        </li>
+          <header class="post-header">
+            <h1 class="post-title" itemprop="name headline">{{ game.title }}</h1>
+
+          </header>
+
+          <div class="post-description">
+            <li class="post-meta" itemprop="style headline"">Style : {{ game.style }}</li>
+            <li class="post-meta" itemprop="engine headline">Made with {{ game.engine }}</li>
+            <li class="post-meta" itemprop="release headline"> {{ game.year }}</li>
+            <li class="post-meta" itemprop="release headline"> {{ game.description }}</li>
+          </div>
+
+          <div class="post-content">
+          {% if {{game.video}} != "" %}
+              <div class="fluidMedia">
+                  <iframe src={{ game.video }} frameborder="0" allowfullscreen></iframe>
+              </div>
+          {% endif %}
+          {% if {{game.image}} != "" %}
+              <div class="fluidMedia">
+                  <iframe src={{ game.image }} frameborder="0" allowfullscreen></iframe>
+              </div>
+          {% endif %}
+
+          </div>
+      </div>
 
     {% endfor %}
 
