@@ -1,5 +1,7 @@
 ---
 layout: game
+category : game
+weight : 100
 title:  "Electric Universe"
 engine: "Unity 5"
 style:  "Arcade Racing"

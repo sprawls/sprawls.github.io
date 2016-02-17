@@ -1,5 +1,7 @@
 ---
 layout: game
+category : game
+weight : 100
 title:  "Ascension"
 engine: "Unreal Engine 4"
 style:  "2D Platformer"
