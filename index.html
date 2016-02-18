@@ -10,7 +10,7 @@ layout: default
 
     {% assign game_list = site.categories["game"] %}
     {% assign game_list = game_list | sort:"weight" %}
-    {% for game in game_list reversed limit : 10  %}
+    {% for game in game_list reversed limit : 11  %}
 
       <div class = post-container>
 
@@ -24,6 +24,7 @@ layout: default
             <li class="post-meta" itemprop="engine headline">Made with {{ game.engine }}</li>
             <li class="post-meta" itemprop="release headline"> {{ game.year }}</li>
             <li class="post-meta" itemprop="release headline"> {{ game.description }}</li>
+            <br></br>
           </div>
 
           <div class="post-content">
@@ -33,8 +34,8 @@ layout: default
               </div>
           {% endif %}
           {% if {{game.image}} != "" %}
-              <div class="fluidMedia">
-                  <iframe src={{ game.image }} frameborder="0" allowfullscreen></iframe>
+              <div class="fluidMedia-image">
+                  <img src={{ game.image }} class="game-image">
               </div>
           {% endif %}
 

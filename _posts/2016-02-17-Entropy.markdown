@@ -1,0 +1,14 @@
+---
+layout: gamejam
+category : game
+weight : 100
+title:  "Entropy"
+engine: "Unity 5"
+style:  "Puzzle"
+year:   "2015"
+jam:    "Ludum Dare 33"
+
+video : ""
+image : "http://ludumdare.com/compo/wp-content/compo2/479518/29314-shot0-1440440721.png"
+link : "http://ludumdare.com/compo/ludum-dare-33/?action=preview&uid=29314"
+---

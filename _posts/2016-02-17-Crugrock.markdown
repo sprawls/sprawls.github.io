@@ -1,0 +1,14 @@
+---
+layout: gamejam
+category : game
+weight : 1
+title:  "Crugrock"
+engine: "Unity 4"
+style:  "Action"
+year:   "2014"
+jam:    "Ludum Dare 29"
+
+video : ""
+image : "http://ludumdare.com/compo/wp-content/compo2/342546/29314-shot1.png"
+link : "http://ludumdare.com/compo/ludum-dare-29/?action=preview&uid=29314"
+---

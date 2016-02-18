@@ -1,0 +1,14 @@
+---
+layout: gamejam
+category : game
+weight : 0
+title:  "YOGOB"
+engine: "Unity 4"
+style:  "Experiment"
+year:   "2013"
+jam:    "Ludum Dare 28"
+
+video : ""
+image : "http://ludumdare.com/compo/wp-content/compo2/308734/29314-shot0.png"
+link : "http://ludumdare.com/compo/ludum-dare-28/?action=preview&uid=29314"
+---

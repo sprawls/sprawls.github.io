@@ -1,7 +1,7 @@
 ---
 layout: gamejam
 category : game
-weight : 50
+weight : 70
 title:  "Shark Cop : Justice Legacy"
 engine: "Unity 5"
 style:  "Shark Simulator"
@@ -10,7 +10,5 @@ jam:    "Indies vs Gamers 2015"
 
 video : "http://www.youtube.com/embed/JlTwMCFh0rA"
 image : ""
+link : "http://gamejolt.com/games/shark-cop-justice-legacy/80479"
 ---
-
-
-<iframe width="420" height="315" src="http://www.youtube.com/embed/JlTwMCFh0rA" frameborder="0" allowfullscreen></iframe>

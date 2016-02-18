@@ -9,7 +9,5 @@ year:   "2015"
 
 video : "http://www.youtube.com/embed/ZWcKrfxNrPk"
 image : ""
-
+link : ""
 ---
-
-<iframe width="420" height="315" src="http://www.youtube.com/embed/ZWcKrfxNrPk" frameborder="0" allowfullscreen></iframe>
