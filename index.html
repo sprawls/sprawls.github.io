@@ -10,24 +10,23 @@ layout: default
 
     {% assign game_list = site.categories["game"] %}
     {% assign game_list = game_list | sort:"weight" %}
-    {% for game in game_list reversed limit : 11  %}
+    {% for game in game_list reversed  %}
 
-      <div class = post-container>
+      <div class = "post">
 
-          <header class="post-header">
+          <header class="game-header">
             <h1 class="post-title" itemprop="name headline">{{ game.title }}</h1>
 
           </header>
 
-          <div class="post-description">
-            <li class="post-meta" itemprop="style headline"">Style : {{ game.style }}</li>
-            <li class="post-meta" itemprop="engine headline">Made with {{ game.engine }}</li>
-            <li class="post-meta" itemprop="release headline"> {{ game.year }}</li>
-            <li class="post-meta" itemprop="release headline"> {{ game.description }}</li>
-            <br></br>
+          <div class="game-description">
+            <li class="game-meta" >{{ game.style }}</li>
+            <li class="game-meta" >Made with {{ game.engine }}</li>
+            <li class="game-meta" > {{ game.year }}</li>
+            <li class="game-meta-description" > {{ game.content }}</li>
           </div>
 
-          <div class="post-content">
+          <div class="game-content">
           {% if {{game.video}} != "" %}
               <div class="fluidMedia">
                   <iframe src={{ game.video }} frameborder="0" allowfullscreen></iframe>

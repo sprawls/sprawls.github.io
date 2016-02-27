@@ -23,7 +23,7 @@ $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
-$content-width:    800px;
+$content-width:    1000px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
@@ -52,6 +52,8 @@ $on-laptop:        800px;
         "syntax-highlighting"
 ;
 
+
+//Infinite Spinner
 .infinite-spinner {
   display: block;
   width: 40px;
@@ -84,9 +86,13 @@ $on-laptop:        800px;
 }
 
 
-//Background for posts :
+//css for posts :
 
-.post-container {
+.page-heading{
+  font-size : 250%;
+}
+
+.post {
     background-color : lightgray;
     padding : 2em;
     border-radius : 8px;
@@ -95,12 +101,16 @@ $on-laptop:        800px;
 
 }
 
-.post-header {
+.game-header {
     text-align: center;
 
 }
 
-.post-description {
+.game-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
     @media (min-width: 650px) {
         float : right;
         width : 50%;
@@ -109,7 +119,10 @@ $on-laptop:        800px;
 
 }
 
-.post-content {
+.game-content {
+    //display: flex;
+    //flex-direction: column;
+    //justify-content: center;
 
     @media (min-width: 650px) {
         float : left;
@@ -117,6 +130,17 @@ $on-laptop:        800px;
     }
     text-align: center;
     box-shadow: 0 0 0pt 3pt #9B9B9B;
+}
+
+
+.game-meta{
+    font-weight: bold;
+}
+
+.game-meta-description{
+    margin-top : 6px;
+    padding: 0px 25px 0px;
+    font-weight : lighter;
 }
 
 .fluidMedia-image{
@@ -127,7 +151,7 @@ $on-laptop:        800px;
 .fluidMedia {
     position: relative;
     padding-bottom: 56.25%; /* proportion value to aspect ratio 16:9 (9 / 16 = 0.5625 or 56.25%) */
-    padding-top: 30px;
+    padding-top: 0px;
     height: 0;
     overflow: hidden;
 }

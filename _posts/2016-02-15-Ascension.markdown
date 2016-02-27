@@ -11,3 +11,6 @@ video : "http://www.youtube.com/embed/ZWcKrfxNrPk"
 image : ""
 link : ""
 ---
+Student project made in collaboration with NAD students. Ascension was made by a team of nearly 20 students over the course of a semester. 
+
+In Ascension, the player controls both an humanoid character and an intangible wisp. Using the the wisp to enhance the player's character abilities, the player must traverse a deadly environment and find collectibles along the way.
