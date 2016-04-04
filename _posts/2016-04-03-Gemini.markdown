@@ -1,0 +1,15 @@
+---
+layout: gamejam
+category : game
+weight : 90
+title:  "Gemini"
+engine: "Unity 5"
+style:  "Puzzle"
+year:   "2016"
+jam:    "Wonderjam Winter 2016"
+
+video : ""
+image : "http://i.imgur.com/WKxVcmY.jpg"
+link : ""
+---
+A relatively complex grid-based puzzle game made in 48 hours. 

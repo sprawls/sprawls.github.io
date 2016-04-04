@@ -1,0 +1,16 @@
+---
+layout: game
+category : game
+weight : 150
+title:  "Deustrom"
+engine: "Unity 5"
+style:  "Versus Curling In A Maelstrom"
+year:   "2016"
+
+video : ""
+image : "https://scontent-yyz1-1.xx.fbcdn.net/hphotos-xtl1/v/t35.0-12/12899406_1013149502101405_1814855602_o.jpg?oh=92ee2fdd12fc2035b41152cec5ffbc9e&oe=5703B079"
+link : ""
+---
+Project made for Ubisoft Gamelab 2016 with a team of four programmers from UQAC and four artists from Centre NAD. 
+
+In Deustrom, two gods battle in the middle of a maelstrom with the goal of being immortalized by their followers. Islands are getting progressively attracted by the maelstrom and each player must protect their own while destroying the opponent's islands.

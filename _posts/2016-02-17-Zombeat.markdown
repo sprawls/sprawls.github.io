@@ -12,3 +12,6 @@ video : ""
 image : "https://cdn1.kongcdn.com/assets/screenshots/0054/9430/Icon2.png"
 link : "http://www.kongregate.com/games/Sprawls/zombeat-stromatolite-turbo-party-club?acomplete=zombeat"
 ---
+Prove you're the best Zombie DJ in this versus strategy rhythmic duel.
+
+Includes over a thousand possible gameplay variations and three different A.I.

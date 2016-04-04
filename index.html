@@ -22,6 +22,9 @@ layout: default
           <div class="game-description">
             <li class="game-meta" >{{ game.style }}</li>
             <li class="game-meta" >Made with {{ game.engine }}</li>
+            {% if {{game.layout}} == "gamejam" %} 
+              <li class="game-meta" > Made for {{ game.jam }}</li> 
+            {% endif %}
             <li class="game-meta" > {{ game.year }}</li>
             <li class="game-meta-description" > {{ game.content }}</li>
           </div>

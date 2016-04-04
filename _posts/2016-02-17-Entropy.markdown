@@ -1,7 +1,7 @@
 ---
 layout: gamejam
 category : game
-weight : 100
+weight : 125
 title:  "Entropy"
 engine: "Unity 5"
 style:  "Puzzle"
@@ -12,3 +12,5 @@ video : ""
 image : "http://ludumdare.com/compo/wp-content/compo2/479518/29314-shot0-1440440721.png"
 link : "http://ludumdare.com/compo/ludum-dare-33/?action=preview&uid=29314"
 ---
+Relaxing puzzle game made for Ludum Dare 33 alone in 72 hours.
+Ranked #58 overall in the jam.

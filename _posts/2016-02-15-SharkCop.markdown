@@ -12,3 +12,4 @@ video : "http://www.youtube.com/embed/JlTwMCFh0rA"
 image : ""
 link : "http://gamejolt.com/games/shark-cop-justice-legacy/80479"
 ---
+Follow shark cop on a normal day at work. Fill paperwork, harass commissioner Pencil Washington, get Starlin back in jail and harm over a hundred fishes in the process !

@@ -12,3 +12,5 @@ video : ""
 image : "http://ludumdare.com/compo/wp-content/compo2/511439/29314-shot0-1450146357.png"
 link : "http://ludumdare.com/compo/ludum-dare-34/?action=preview&uid=29314"
 ---
+An experimental game exploring genetic alrogithms.
+Create your own little creatures and breed them to evolve.
