@@ -34,11 +34,16 @@ layout: default
               <div class="fluidMedia">
                   <iframe src={{ game.video }} frameborder="0" allowfullscreen></iframe>
               </div>
-          {% endif %}
-          {% if {{game.image}} != "" %}
-              <div class="fluidMedia-image">
-                  <img src={{ game.image }} class="game-image">
-              </div>
+          {% else %}
+            {% if {{game.localImage}} != "" %}
+                <div class="fluidMedia-image">
+                    <img src="{{ site.baseurl }}/public/images/{{ game.localImage }}" class="game-image">
+                </div>
+            {% else if {{game.image}} != "" %}
+                <div class="fluidMedia-image">
+                    <img src={{ game.image }} class="game-image">
+                </div>
+            {% endif %}
           {% endif %}
 
           </div>

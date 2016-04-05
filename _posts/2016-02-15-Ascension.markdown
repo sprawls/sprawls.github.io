@@ -8,6 +8,7 @@ style:  "2D Platformer"
 year:   "2015"
 
 video : "http://www.youtube.com/embed/ZWcKrfxNrPk"
+localImage : ""
 image : ""
 link : ""
 ---

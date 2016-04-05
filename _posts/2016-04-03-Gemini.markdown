@@ -9,6 +9,7 @@ year:   "2016"
 jam:    "Wonderjam Winter 2016"
 
 video : ""
+localImage : "img_gemini.jpg"
 image : "http://i.imgur.com/WKxVcmY.jpg"
 link : ""
 ---

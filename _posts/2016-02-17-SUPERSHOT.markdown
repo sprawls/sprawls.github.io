@@ -9,6 +9,7 @@ year:   "2015"
 jam:    "Ludum Dare 32"
 
 video : ""
+localImage : "img_supershot.png"
 image : "http://ludumdare.com/compo/wp-content/compo2/444368/29314-shot0-1429411285.png"
 link : "http://ludumdare.com/compo/ludum-dare-32/?action=preview&uid=29314"
 ---

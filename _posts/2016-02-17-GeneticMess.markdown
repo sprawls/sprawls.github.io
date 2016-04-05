@@ -9,6 +9,7 @@ year:   "2015"
 jam:    "Ludum Dare 34"
 
 video : ""
+localImage : "img_genetic_mess.png"
 image : "http://ludumdare.com/compo/wp-content/compo2/511439/29314-shot0-1450146357.png"
 link : "http://ludumdare.com/compo/ludum-dare-34/?action=preview&uid=29314"
 ---

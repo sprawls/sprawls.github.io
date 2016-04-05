@@ -9,6 +9,7 @@ year:   "2014"
 jam:    "Ludum Dare 29"
 
 video : ""
+localImage : "img_crugrock.png"
 image : "http://ludumdare.com/compo/wp-content/compo2/342546/29314-shot1.png"
 link : "http://ludumdare.com/compo/ludum-dare-29/?action=preview&uid=29314"
 ---

@@ -10,6 +10,7 @@ year:   "2014"
 jam:    "Ludum Dare 30"
 
 video : ""
+localImage : "img_contraband.png"
 image : "http://ludumdare.com/compo/wp-content/compo2/375043/29314-shot1.png"
 link : "http://ludumdare.com/compo/ludum-dare-30/?action=preview&uid=29314"
 ---

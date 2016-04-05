@@ -9,6 +9,7 @@ year:   "2014"
 jam:    "Wonderjam Autumn 2014"
 
 video : ""
+localImage : "img_zombeat.png"
 image : "https://cdn1.kongcdn.com/assets/screenshots/0054/9430/Icon2.png"
 link : "http://www.kongregate.com/games/Sprawls/zombeat-stromatolite-turbo-party-club?acomplete=zombeat"
 ---
