@@ -18,34 +18,34 @@ layout: default
             <h1 class="post-title" itemprop="name headline">{{ game.title }}</h1>
 
           </header>
+          <div class="game-body">
+            <div class="game-description">
+              <li class="game-meta" >{{ game.style }}</li>
+              <li class="game-meta" >Made with {{ game.engine }}</li>
+              {% if {{game.layout}} == "gamejam" %} 
+                <li class="game-meta" > Made for {{ game.jam }}</li> 
+              {% endif %}
+              <li class="game-meta" > {{ game.year }}</li>
+              <li class="game-meta-description" > {{ game.content }}</li>
+            </div>
 
-          <div class="game-description">
-            <li class="game-meta" >{{ game.style }}</li>
-            <li class="game-meta" >Made with {{ game.engine }}</li>
-            {% if {{game.layout}} == "gamejam" %} 
-              <li class="game-meta" > Made for {{ game.jam }}</li> 
-            {% endif %}
-            <li class="game-meta" > {{ game.year }}</li>
-            <li class="game-meta-description" > {{ game.content }}</li>
-          </div>
-
-          <div class="game-content">
-          {% if {{game.video}} != "" %}
-              <div class="fluidMedia">
-                  <iframe src={{ game.video }} frameborder="0" allowfullscreen></iframe>
-              </div>
-          {% else %}
-            {% if {{game.localImage}} != "" %}
-                <div class="fluidMedia-image">
-                    <img src="{{ site.baseurl }}/public/images/{{ game.localImage }}" class="game-image">
+            <div class="game-content">
+            {% if {{game.video}} != "" %}
+                <div class="fluidMedia">
+                    <iframe src={{ game.video }} frameborder="0" allowfullscreen></iframe>
                 </div>
-            {% else if {{game.image}} != "" %}
-                <div class="fluidMedia-image">
-                    <img src={{ game.image }} class="game-image">
-                </div>
+            {% else %}
+              {% if {{game.localImage}} != "" %}
+                  <div class="fluidMedia-image">
+                      <img src="{{ site.baseurl }}/public/images/{{ game.localImage }}" class="game-image">
+                  </div>
+              {% else if {{game.image}} != "" %}
+                  <div class="fluidMedia-image">
+                      <img src={{ game.image }} class="game-image">
+                  </div>
+              {% endif %}
             {% endif %}
-          {% endif %}
-
+            </div>
           </div>
       </div>
 
