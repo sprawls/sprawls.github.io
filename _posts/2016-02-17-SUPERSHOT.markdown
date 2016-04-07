@@ -1,7 +1,7 @@
 ---
 layout: gamejam
 category : game
-weight : 40
+weight : 20
 title:  "SUPER SHOT"
 engine: "Unity 5"
 style:  "2D Action"

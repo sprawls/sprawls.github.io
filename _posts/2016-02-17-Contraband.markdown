@@ -1,7 +1,7 @@
 ---
 layout: gamejam
 category : game
-weight : 20
+weight : 15
 title:  "Contraband"
 engine: "Unity
 4"

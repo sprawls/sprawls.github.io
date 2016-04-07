@@ -1,7 +1,7 @@
 ---
 layout: gamejam
 category : game
-weight : 40
+weight : 30
 title:  "Life Goes On"
 engine: "Unity 4"
 style:  "Experiment"

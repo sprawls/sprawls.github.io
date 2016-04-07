@@ -1,0 +1,16 @@
+---
+layout: gamejam
+category : game
+weight : 30
+title:  "The Call"
+engine: "Unity 4"
+style:  "Horror Game"
+year:   "2014"
+jam: 	"Asylum Jam 2014"
+
+video : ""
+localImage : "img_the_call.png"
+image : ""
+link : ""
+---
+A small horror game played from top-down perspective.

@@ -1,0 +1,16 @@
+---
+layout: gamejam
+category : game
+weight : 40
+title:  "Tatakai"
+engine: "Unity 4"
+style:  "Rythmic Versus Spamfest"
+year:   "2014"
+jam: 	"Wonderjam Winter 2014"
+
+video : ""
+localImage : "img_tatakai.png"
+image : ""
+link : ""
+---
+Craft your troops and send them attack the enemy using your rythmic precision and button smashing abilities.

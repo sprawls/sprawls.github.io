@@ -1,7 +1,7 @@
 ---
 layout: gamejam
 category : game
-weight : 50
+weight : 55
 title:  "Zombeat Stromatolithe Turbo Party Club"
 engine: "Unity 4"
 style:  "Rhythmic Arcade"

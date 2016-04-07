@@ -1,7 +1,7 @@
 ---
 layout: gamejam
 category : game
-weight : 70
+weight : 90
 title:  "Shark Cop : Justice Legacy"
 engine: "Unity 5"
 style:  "Shark Simulator"

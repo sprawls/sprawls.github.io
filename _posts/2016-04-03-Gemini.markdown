@@ -1,7 +1,7 @@
 ---
 layout: gamejam
 category : game
-weight : 90
+weight : 80
 title:  "Gemini"
 engine: "Unity 5"
 style:  "Puzzle"
