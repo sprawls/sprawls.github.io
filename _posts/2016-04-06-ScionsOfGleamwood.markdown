@@ -8,7 +8,7 @@ style:  "3rd Person Chase"
 year:   "2015"
 
 video : ""
-localImage : "img_scions.png"
+localImage : "img_scions.jpg"
 image : ""
 link : ""
 ---

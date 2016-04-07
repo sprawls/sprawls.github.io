@@ -28,6 +28,10 @@ $content-width:    1000px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
+/*Custom values*/
+$small-width:      650px;
+$img-margin-small: 10px;
+
 
 
 // Use media queries like this:
@@ -107,16 +111,37 @@ $on-laptop:        800px;
 }
 
 .game-body {
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row-reverse;
+
+    /*small width*/
+    @media (max-width: $small-width) {
+        -webkit-flex-direction: column-reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
+    }       
+    /*big width*/
+    @media (min-width: $small-width) {
+        -webkit-flex-direction: row-reverse;
+            -ms-flex-direction: row-reverse;
+                flex-direction: row-reverse;
+    }
 }
 
 .game-description {
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 
-    @media (min-width: 650px) {
+    /*big width*/
+    @media (min-width: $small-width) {
         float : right;
         width : 50%;
     }
@@ -125,11 +150,18 @@ $on-laptop:        800px;
 }
 
 .game-content {
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 
-    @media (min-width: 650px) {
+    /*big width*/
+    @media (min-width: $small-width) {
         float : left;
         width : 50%;
     }
@@ -152,6 +184,11 @@ $on-laptop:        800px;
     width : 100%;
     height : 100%;
     box-shadow: 0 0 0pt 3pt #9B9B9B;
+
+    /*Small width*/
+    @media (max-width: $small-width) {
+        margin-bottom : $img-margin-small;
+    }
 }
 
 .fluidMedia {
@@ -161,6 +198,12 @@ $on-laptop:        800px;
     height: 0;
     overflow: hidden;
     box-shadow: 0 0 0pt 3pt #9B9B9B;
+
+
+    /*Small width*/
+    @media (max-width: $small-width) {
+        margin-bottom : $img-margin-small;
+    }
 }
 
 .fluidMedia iframe {
@@ -169,4 +212,5 @@ $on-laptop:        800px;
     left: 0;
     width: 100%;
     height: 100%;
+
 }

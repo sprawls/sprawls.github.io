@@ -11,6 +11,6 @@ jam: 	"Asylum Jam 2014"
 video : ""
 localImage : "img_the_call.png"
 image : ""
-link : ""
+link : "http://www.kongregate.com/games/Sprawls/the-call"
 ---
 A small horror game played from top-down perspective.
