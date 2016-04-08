@@ -236,6 +236,14 @@ body {
 
 }
 
+.mobile-separator {
+    display : none;
+    /*Small width*/
+    @media (max-width: $small-width) {
+        display : block;
+    }
+}
+
 //css for header
 
 .site-title {

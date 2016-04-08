@@ -70,7 +70,7 @@ layout: default
                       <div><iframe src={{ vid }} frameborder="0" allowfullscreen></iframe></div>   
                     {% endfor %}
                     </div>
- -                {% else %}
+                  {% else %}
                     <div class="fluidMedia-image">
                       <div class="single-item">
                         {% for img in game.localImage %}
@@ -79,6 +79,7 @@ layout: default
                       </div>
                     </div>
                   {% endif %}
+                  <div class="mobile-separator">-</div> 
                   
             </div>         
           </div>
