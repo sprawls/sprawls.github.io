@@ -100,7 +100,8 @@ body {
 }
 
 .page-heading{
-    font-size : 250%;
+    font-size : 200%;
+    padding-left : 1em;
 }
 
 .post {
@@ -109,6 +110,11 @@ body {
     border-radius : 0px;
     margin : 15px;
     overflow: auto;
+    /*small width*/
+    @media (max-width: $small-width) {
+        padding : 1em;
+        overflow : hidden;
+    }  
 
 }
 
@@ -168,12 +174,17 @@ body {
         -ms-flex-pack: center;
             justify-content: center;
 
+    text-align: center;
+
     /*big width*/
     @media (min-width: $small-width) {
         float : left;
         width : 50%;
     }
-    text-align: center;
+    @media (max-width: $small-width) {
+        padding : 8px;
+    }  
+
     
 }
 
@@ -228,12 +239,12 @@ body {
 //css for header
 
 .site-title {
-    border: 3px solid black;
     margin-bottom   : 5px;
     margin-top      : 5px;
     padding-left    : 8px;
     padding-right   : 8px;
     font-weight     : bold;
+    font-size : 200%;
 }
 
 .site-title:hover {
