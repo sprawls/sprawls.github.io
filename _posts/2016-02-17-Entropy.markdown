@@ -9,7 +9,12 @@ year:   "2015"
 jam:    "Ludum Dare 33"
 
 video : ""
-localImage : "img_entropy.png"
+localImage : 
+
+- "img_entropy.png"
+- "img_entropy_2.png"
+- "img_entropy_3.png"
+
 image : "http://ludumdare.com/compo/wp-content/compo2/479518/29314-shot0-1440440721.png"
 link : "http://ludumdare.com/compo/ludum-dare-33/?action=preview&uid=29314"
 ---

@@ -8,7 +8,12 @@ style:  "Versus Curling In A Maelstrom"
 year:   "2016"
 
 video : ""
-localImage : "img_deustrom.jpg"
+
+localImage : 
+
+- "img_deustrom.jpg"
+- "img_deustrom_2.jpg"
+
 image : "http://i.imgur.com/4c4q0i9.jpg"
 link : ""
 ---

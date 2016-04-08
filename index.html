@@ -4,6 +4,7 @@ layout: default
 
 <div class="home">
 
+  <!-- Google Analytics -->
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -15,6 +16,20 @@ layout: default
 
   </script>
 
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="{{ site.baseurl }}/js/slick/slick.js"></script>
+  <script type="text/javascript">
+   $(document).ready(function(){
+      $('.single-item').slick({
+          infinite: true,
+          speed: 300,
+          slidesToShow: 1,
+          adaptiveHeight: true
+      });
+   });
+   </script>
+
+
   <h1 class="page-heading">Projects</h1>
 
   <ul class="post-list">
@@ -25,11 +40,14 @@ layout: default
 
       <div class = "post">
 
+          <!-- Page Header -->
           <header class="game-header">
             <h1 class="post-title" itemprop="name headline">{{ game.title }}</h1>
-
           </header>
+
+          <!-- Page Body -->
           <div class="game-body">
+            <!-- Game's description -->
             <div class="game-description">
               <li class="game-meta" >{{ game.style }}</li>
               <li class="game-meta" >Made with {{ game.engine }}</li>
@@ -40,31 +58,34 @@ layout: default
               <li class="game-meta-description" > {{ game.content }}</li>
             </div>
 
+            <!-- Game's Image and video -->
             <div class="game-content">
-            {% if {{game.video}} != "" %}
-                <div class="fluidMedia">
-                    <iframe src={{ game.video }} frameborder="0" allowfullscreen></iframe>
-                </div>
-            {% else %}
-              {% if {{game.localImage}} != "" %}
-                  <div class="fluidMedia-image">
-                      <img src="{{ site.baseurl }}/public/images/{{ game.localImage }}" class="game-image">
-                  </div>
-              {% else if {{game.image}} != "" %}
-                  <div class="fluidMedia-image">
-                      <img src={{ game.image }} class="game-image">
-                  </div>
-              {% endif %}
-            {% endif %}
-            </div>
+                  
+                
+                  {% if {{game.video}} != "" %}
+                    <div class="fluidMedia">
+                    {% for vid in game.video %}
+                      <div><iframe src={{ vid }} frameborder="0" allowfullscreen></iframe></div>   
+                    {% endfor %}
+                    </div>
+ -                {% else %}
+                    <div class="fluidMedia-image">
+                      <div class="single-item">
+                        {% for img in game.localImage %}
+                          <div><img src="{{ site.baseurl }}/public/images/{{ img }}" alt=""></div>       
+                        {% endfor %}
+                      </div>
+                    </div>
+                  {% endif %}
+                  
+            </div>         
           </div>
       </div>
+
 
     {% endfor %}
 
   </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
 
