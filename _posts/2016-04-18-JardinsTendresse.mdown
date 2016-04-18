@@ -1,0 +1,18 @@
+---
+layout: gamejam
+category : game
+weight : 35
+title:  "Les Jardins De La Tendresse"
+engine: "Unity 5"
+style:  "Mobile Cucumber Dating"
+year:   "2015"
+jam:	"Wonderjam Winter 2015"
+
+video : ""
+localImage : "img_jardins.png"
+image : ""
+link : ""
+---
+A mobile game where players must date and harvest their love to make their love fruits grow.
+
+The game consists of a quirky dating game where the players must fill blanks in their date with text and sounds to make the funniest punch lines. The goal was to make a fun little game in the vein of a Jackbox Party game.
