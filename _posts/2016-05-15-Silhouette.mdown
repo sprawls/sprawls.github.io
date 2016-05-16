@@ -1,0 +1,20 @@
+---
+layout: game
+category : game
+weight : 75
+title:  "Silhouette"
+engine: "Processing"
+style:  "Abstract Puzzle"
+year:   "2016"
+
+video : ""
+localImage : 
+
+- "img_silhouette.png"
+- "img_silhouette_2.png"
+- "img_silhouette_3.png"
+
+image : ""
+link : ""
+---
+A small game made with processing for a art class in college. The player must dicover the hidden shapes by spawning and controlling particles that changes color based on the hidden shape. 
