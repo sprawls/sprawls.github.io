@@ -8,6 +8,8 @@ engine: "Unity
 style:  "Real-Time Management"
 year:   "2014"
 jam:    "Ludum Dare 30"
+team: "solo"
+role : ""
 
 video : ""
 localImage : "img_contraband.png"

@@ -7,6 +7,8 @@ engine: "Unity 5"
 style:  "Sloth Stealth Murder"
 year:   "2016"
 jam: 	"Little Awful 2016"
+team: "8"
+role : ""
 
 video : ""
 localImage : "img_sloth.png"

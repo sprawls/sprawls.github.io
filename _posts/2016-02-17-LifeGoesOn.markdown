@@ -7,6 +7,8 @@ engine: "Unity 4"
 style:  "Experiment"
 year:   "2014"
 jam:    "Ludum Dare 31"
+team: "solo"
+role : ""
 
 video : ""
 localImage : "img_life_goes_on.png"

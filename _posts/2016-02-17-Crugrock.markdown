@@ -7,6 +7,8 @@ engine: "Unity 4"
 style:  "Action"
 year:   "2014"
 jam:    "Ludum Dare 29"
+team: "solo"
+role : ""
 
 video : ""
 localImage : "img_crugrock.png"

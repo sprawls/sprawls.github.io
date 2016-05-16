@@ -7,6 +7,8 @@ engine: "Unity 5"
 style:  "Mobile Cucumber Dating"
 year:   "2015"
 jam:	"Wonderjam Winter 2015"
+team: "4"
+role : ""
 
 video : ""
 localImage : "img_jardins.png"

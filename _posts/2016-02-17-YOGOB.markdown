@@ -7,6 +7,8 @@ engine: "Unity 4"
 style:  "Experiment"
 year:   "2013"
 jam:    "Ludum Dare 28"
+team: "solo"
+role : ""
 
 video : ""
 localImage : "img_yogob.png"

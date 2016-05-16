@@ -6,8 +6,10 @@ title:  "Deustrom"
 engine: "Unity 5"
 style:  "Versus Curling In A Maelstrom"
 year:   "2016"
+team: "8"
+role : "3C / AI / Physics"
 
-video : ""
+video : "https://www.youtube.com/embed/ciQ46A046oM"
 
 localImage : 
 

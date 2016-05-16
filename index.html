@@ -52,6 +52,12 @@ layout: default
             <div class="game-description">
               <li class="game-meta" >{{ game.style }}</li>
               <li class="game-meta" >Made with {{ game.engine }}</li>
+              {% if {{game.team}} != "" %} 
+                <li class="game-meta" > Team Size : {{ game.team }}</li>
+              {% endif %}
+              {% if {{game.role}} != "" %} 
+                <li class="game-meta" > Role : {{ game.role }}</li>
+              {% endif %}
               {% if {{game.layout}} == "gamejam" %} 
                 <li class="game-meta" > Made for {{ game.jam }}</li> 
               {% endif %}

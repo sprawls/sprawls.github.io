@@ -7,6 +7,8 @@ engine: "Unity 4"
 style:  "Horror Game"
 year:   "2014"
 jam: 	"Asylum Jam 2014"
+team: "solo"
+role : ""
 
 video : ""
 localImage : "img_the_call.png"

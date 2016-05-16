@@ -6,6 +6,8 @@ title:  "Scions of Gleamwood"
 engine: "Unreal Engine 4"
 style:  "3rd Person Chase"
 year:   "2015"
+team: "8"
+role : ""
 
 video : ""
 localImage : "img_scions.jpg"

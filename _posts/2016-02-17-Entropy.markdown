@@ -7,6 +7,8 @@ engine: "Unity 5"
 style:  "Puzzle"
 year:   "2015"
 jam:    "Ludum Dare 33"
+team: "solo"
+role : ""
 
 video : ""
 localImage : 

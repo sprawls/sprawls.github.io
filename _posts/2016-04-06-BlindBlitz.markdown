@@ -7,6 +7,8 @@ engine: "Unity 4"
 style:  "Party Game"
 year:   "2015"
 jam: 	"Global Game Jam 2015"
+team: "3"
+role : ""
 
 video : ""
 localImage : "img_blind_blitz.png"

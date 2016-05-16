@@ -7,6 +7,8 @@ engine: "Unity 4"
 style:  "Rhythmic Arcade"
 year:   "2014"
 jam:    "Wonderjam Autumn 2014"
+team: "4"
+role : ""
 
 video : ""
 localImage : 

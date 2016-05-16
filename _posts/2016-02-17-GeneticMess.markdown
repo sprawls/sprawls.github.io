@@ -7,6 +7,8 @@ engine: "Unity 5"
 style:  "Genetic Algorithm Experiment"
 year:   "2015"
 jam:    "Ludum Dare 34"
+team: "2"
+role : ""
 
 video : ""
 localImage : "img_genetic_mess.png"

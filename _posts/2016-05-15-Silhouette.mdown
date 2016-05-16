@@ -6,6 +6,8 @@ title:  "Silhouette"
 engine: "Processing"
 style:  "Abstract Puzzle"
 year:   "2016"
+team: "solo"
+role : ""
 
 video : ""
 localImage : 

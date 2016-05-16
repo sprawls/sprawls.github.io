@@ -7,6 +7,8 @@ engine: "Unity 5"
 style:  "2D Action"
 year:   "2015"
 jam:    "Ludum Dare 32"
+team: "solo"
+role : ""
 
 video : ""
 localImage : "img_supershot.png"
