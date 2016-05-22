@@ -9,7 +9,7 @@ year:   "2015"
 team: "18"
 role : "3C"
 
-video : "http://www.youtube.com/embed/ZWcKrfxNrPk"
+video : "https://www.youtube.com/embed/ZWcKrfxNrPk"
 localImage : ""
 image : ""
 link : ""
