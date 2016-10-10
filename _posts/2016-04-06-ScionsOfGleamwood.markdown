@@ -1,5 +1,5 @@
 ---
-layout: game
+layout: Portfolio/game
 category : game
 weight : 40
 title:  "Scions of Gleamwood"
