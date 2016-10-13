@@ -3,16 +3,23 @@
 
   {% include Entropy/head.html %}
 
-  <!-- JQuery -->
-  <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-
   <body>
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
+  <div class="site-container">
+    <header>
+      {% include Entropy/header.html %}
+    </header>
+
+    
+    {% include Entropy/infoSection.html %}
+   
+    {% include Entropy/fundingSection.html %}
+    
+
+    <footer>
+      {% include Entropy/footer.html %}
+    </footer>
+  </div>
 
   </body>
 

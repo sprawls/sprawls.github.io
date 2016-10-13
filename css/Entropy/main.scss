@@ -6,6 +6,11 @@
 //Font import
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700);
 
+//CSS import
+@import url('header.css');
+@import url('infoSection.css');
+@import url('fundingSection.css');
+
 // Use media queries like this:
 // @include media-query($on-palm) {
 //     .wrapper {
@@ -24,36 +29,8 @@
 $small-width:      800px;
 $img-margin-small: 10px;
 
-
-/////////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////  Custom CSS for Site Header //////////////////////////////////////
-/////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-.headerSection {
-	position : relative;
-	width: 100%;
-}
-
-.headerSection .textOverImageTop {
-   position: absolute; 
-   top: 200px; 
-   left: 0; 
-   width: 100%; 
-}
-
-.headerSection .textOverImageBot {
-	position: absolute; 
-   	top: 200px; 
-   	left: 0; 
-   	width: 100%; 
-}
-
-
-.headerSection .BackgroundGif {
-
-}
-
-#googlePlayButton {
-	width: 10em;
-	height: 4em;
+.site-container {
+  width: 100%;
+  min-height: 100%;
+  text-align: center;
 }
