@@ -9,6 +9,7 @@ footer .content-container {
 }
 footer .links {
 	list-style-type: none;
+	margin-bottom: 40px;
 }
 footer .links li {
 	display: inline-block;

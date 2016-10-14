@@ -19,10 +19,10 @@ header {
 	position: absolute;
 }
 #googlePlayButton {
-	width: 12vw;
-	bottom: 60px;
+	width: 15vw;
+	bottom: 90px;
 	left: 50%;
-	margin-left: -5vw;
+	margin-left: -7vw;
 }
 
 @media screen and (max-width: 768px) {
@@ -30,9 +30,9 @@ header {
 		font-size: 7vw;
 	}
 	#googlePlayButton {
-		bottom: 40px;
-		width: 15vw;
-		margin-left: -6vw;
+		bottom: 60px;
+		width: 20vw;
+		margin-left: -9vw;
 	}
 }
 
@@ -42,8 +42,8 @@ header {
 		top: 20px;
 	}
 	#googlePlayButton {
-		bottom: 20px;
-		width: 20vw;
-		margin-left: -9vw;
+		bottom: 40px;
+		width: 25vw;
+		margin-left: -11vw;
 	}
 }

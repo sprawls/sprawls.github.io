@@ -26,9 +26,15 @@
 }
 @media screen and (max-width: 767px) {
 	#infoSection p {
-		margin: 30px 0;
+		margin: 40px 0;
+		font-size: 1.6em;
 	}
 	#infoSection .flex-container {
 		display: block;
+	}
+}
+@media screen and (max-width: 450px) {
+	#infoSection p {
+		font-size: 1.3em;
 	}
 }
