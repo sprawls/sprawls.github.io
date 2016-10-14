@@ -10,6 +10,10 @@
 	font-size: 1.7em;
 	font-weight: bold;
 }
+#fundingSection #funding-description {
+	font-size: 1.1em;
+	font-weight: normal;
+}
 #fundingSection .progress-container {
 	margin-top: 20px;
 }
