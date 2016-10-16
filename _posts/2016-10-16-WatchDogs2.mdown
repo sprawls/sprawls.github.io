@@ -9,7 +9,7 @@ year:   "2016"
 team: "Too big to count"
 role : "AI Programmer"
 
-video : "https://www.youtube.com/watch?v=hh9x4NqW0Dw"
+video : ""https://www.youtube.com/embed/hh9x4NqW0Dw"
 localImage : ""
 image : ""
 link : ""
