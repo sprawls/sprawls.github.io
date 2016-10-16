@@ -13,6 +13,6 @@ role : ""
 video : ""
 localImage : "img_sloth.png"
 image : ""
-link : ""
+link : "http://gamejolt.com/games/a-moderate-and-reasonable-sloth-little-awful-jam-2016/121468"
 ---
 Born out of love for sloth, lack of sleep and beer consumption, A Modest And Reasonable Sloth lets you slowly but brutally kill people as a sloth. A relaxing and slightly frustrating experience for all.

@@ -10,7 +10,7 @@ team: "solo"
 role : ""
 
 video : ""
-localImage : ""
+localImage : 
 
 - "img_confluxx.png"
 - "img_confluxx_2.png"
@@ -24,7 +24,7 @@ localImage : ""
 - "img_confluxx_10.png"
 
 image : ""
-link : ""
+link : "http://gamejolt.com/games/confluxx/199188"
 ---
 The first non-gamejam game I made. I spent a summer making this game learning programming and game design.
 

@@ -13,6 +13,6 @@ role : ""
 video : ""
 localImage : "img_gemini.jpg"
 image : "http://i.imgur.com/WKxVcmY.jpg"
-link : ""
+link : "http://gamejolt.com/games/gemini/199197"
 ---
 A relatively complex grid-based puzzle game made in 48 hours. 
