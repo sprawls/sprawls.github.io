@@ -1,0 +1,18 @@
+---
+layout: Portfolio/game
+category : game
+weight : 150
+title:  "Watch Dogs 2"
+engine: ""
+style:  "Open World Action-Adventure"
+year:   "2016"
+team: "Too big to count"
+role : "AI Programmer"
+
+video : "https://www.youtube.com/watch?v=hh9x4NqW0Dw"
+localImage : ""
+image : ""
+link : ""
+---
+I worked as an AI Programmer for the last months of production for Watch Dogs 2.
+Thanks to the great team at Ubisoft for this opportunity !
