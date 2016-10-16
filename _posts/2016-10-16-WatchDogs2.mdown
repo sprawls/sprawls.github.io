@@ -1,15 +1,15 @@
 ---
 layout: Portfolio/game
 category : game
-weight : 150
-title:  "Watch Dogs 2"
+weight : 155
+title:  "Watch Dogs 2" 
 engine: ""
 style:  "Open World Action-Adventure"
 year:   "2016"
 team: "Too big to count"
 role : "AI Programmer"
 
-video : "https://www.youtube.com/embed/hh9x4NqW0Dw"
+video : "http://www.youtube.com/embed/hh9x4NqW0Dw"
 localImage : ""
 image : ""
 link : ""
