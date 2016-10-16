@@ -1,0 +1,37 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+//Font import
+@import url(https://fonts.googleapis.com/css?family=Lora:400,700);
+
+//CSS import
+@import url('header.css');
+@import url('infoSection.css');
+@import url('fundingSection.css');
+@import url('footer.css');
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+/*Custom values*/
+$small-width:      800px;
+$img-margin-small: 10px;
+
+.site-container {
+  width: 100%;
+  min-height: 100%;
+  text-align: center;
+}

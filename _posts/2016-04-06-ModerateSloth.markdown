@@ -1,5 +1,5 @@
 ---
-layout: gamejam
+layout: Portfolio/gamejam
 category : game
 weight : 70
 title:  "A Modest And Reasonable Sloth"

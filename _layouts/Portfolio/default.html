@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+  {% include Portfolio/head.html %}
+
+  <!-- JQuery -->
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+  <!-- Infinite Jekyll -->
+  <script src="/js/infinite-jekyll.js"></script>
+  
+  <!-- Slick Carousel -->
+  <script type="text/javascript" src="js/slick/slick.js"></script>
+
+  <body>
+
+    {% include Portfolio/header.html %}
+
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include Portfolio/footer.html %}
+
+  </body>
+
+</html>

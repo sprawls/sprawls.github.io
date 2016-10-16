@@ -1,5 +1,5 @@
 ---
-layout: gamejam
+layout: Portfolio/gamejam
 category : game
 weight : 55
 title:  "Zombeat Stromatolithe Turbo Party Club"
