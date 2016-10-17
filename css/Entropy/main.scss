@@ -30,6 +30,9 @@
 $small-width:      800px;
 $img-margin-small: 10px;
 
+body, html {
+	height: 100%;
+}
 .site-container {
   width: 100%;
   min-height: 100%;
