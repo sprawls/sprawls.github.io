@@ -1,4 +1,4 @@
-# [Alexis Lessard (spwawls)'s website](https://sprawls.github.io/)
+# [Alexis Lessard (Sprawls)'s website](https://sprawls.github.io/)
 
 Personal website and portfolio
 
