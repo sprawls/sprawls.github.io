@@ -10,7 +10,7 @@ jam:    "Indies vs Gamers 2015"
 team: "5"
 role : ""
 
-video : "http://www.youtube.com/embed/JlTwMCFh0rA"
+video : "https://www.youtube.com/embed/JlTwMCFh0rA"
 localImage : ""
 image : ""
 link : "http://gamejolt.com/games/shark-cop-justice-legacy/80479"
