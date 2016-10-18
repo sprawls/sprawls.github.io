@@ -8,7 +8,7 @@
 	-ms-flex-align: center;
 	    align-items: center;
 }
-#fundingSection p {
+#fundingSection #support-title {
 	font-size: 1.7em;
 	font-weight: bold;
 }
@@ -21,6 +21,8 @@
 }
 #fundingSection #progress-number {
 	margin-bottom: 30px;
+	font-size: 1.6em;
+	font-weight: bold;
 }
 #fundingSection .progress {
 	height: 30px;
@@ -40,6 +42,12 @@
 	animation: bounce 0.35s ease infinite alternate;
 }
 
+@media screen and (max-width: 350px) {
+	#fundingSection #support-title {
+		font-size: 1.45em;
+		margin-bottom: 0;
+	}
+}
 
 @keyframes bounce{
      from {transform: translateY(0);}
