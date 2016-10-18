@@ -1,8 +1,10 @@
 footer {
 	height: 300px;
 	font-size: 1.3em;
+	display: -ms-flexbox !important;
 	display: flex !important;
-	align-items: center;
+	-ms-flex-align: center;
+	    align-items: center;
 }
 footer .content-container {
 	margin: 0 auto;
@@ -26,4 +28,10 @@ footer p {
 footer .link-icon {
 	width: 16px;
 	height: auto;
+}
+
+@media screen and (max-width: 450px) {
+	footer p {
+		font-size: 1em;
+	}
 }

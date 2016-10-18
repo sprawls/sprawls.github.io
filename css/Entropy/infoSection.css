@@ -14,14 +14,17 @@
 }
 
 #infoSection .flex-container {
+	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
+	-ms-flex-align: center;
+	    align-items: center;
 }
 
 
 @media screen and (max-width: 880px) {
 	#infoSection p {
 		padding: 0 60px;
+		font-size: 1.5em;
 	}
 }
 @media screen and (max-width: 767px) {

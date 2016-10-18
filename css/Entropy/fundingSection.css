@@ -3,8 +3,10 @@
 	background-color: #EDEDED;
 	padding: 20px;
 	border-top: 1px solid #DFDFDF;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
+	-ms-flex-align: center;
+	    align-items: center;
 }
 #fundingSection p {
 	font-size: 1.7em;
@@ -34,4 +36,12 @@
 	font-size: 1.5em;
 	font-weight: bold;
 	text-transform: uppercase;
+
+	animation: bounce 0.35s ease infinite alternate;
+}
+
+
+@keyframes bounce{
+     from {transform: translateY(0);}
+     to   {transform: translateY(-10px);}
 }
