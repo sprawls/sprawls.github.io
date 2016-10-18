@@ -1,0 +1,37 @@
+#fundingSection {
+	height: 400px;
+	background-color: #EDEDED;
+	padding: 20px;
+	border-top: 1px solid #DFDFDF;
+	display: flex;
+	align-items: center;
+}
+#fundingSection p {
+	font-size: 1.7em;
+	font-weight: bold;
+}
+#fundingSection #funding-description {
+	font-size: 1.1em;
+	font-weight: normal;
+}
+#fundingSection .progress-container {
+	margin-top: 20px;
+}
+#fundingSection #progress-number {
+	margin-bottom: 30px;
+}
+#fundingSection .progress {
+	height: 30px;
+	background-color: #FFFFFF;
+	border: 1px solid #DFDFDF;
+	padding: 0;
+}
+#fundingSection .progress .progress-bar {
+	font-size: 1.2em;
+	line-height: 30px;
+}
+#paypal-btn button {
+	font-size: 1.5em;
+	font-weight: bold;
+	text-transform: uppercase;
+}

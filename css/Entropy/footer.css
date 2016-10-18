@@ -1,0 +1,29 @@
+footer {
+	height: 300px;
+	font-size: 1.3em;
+	display: flex !important;
+	align-items: center;
+}
+footer .content-container {
+	margin: 0 auto;
+}
+footer .links {
+	list-style-type: none;
+	margin-bottom: 40px;
+}
+footer .links li {
+	display: inline-block;
+	margin-right: 40px;
+}
+footer .links li:hover {
+	color: #4FEACC;
+}
+footer p {
+	font-size: 120%;
+	font-weight: bold;
+	margin-top: 30px;
+}
+footer .link-icon {
+	width: 16px;
+	height: auto;
+}

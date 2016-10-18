@@ -1,7 +1,7 @@
 ---
-layout: gamejam
+layout: Portfolio/gamejam
 category : game
-weight : 90
+weight : 95
 title:  "Shark Cop : Justice Legacy"
 engine: "Unity 5"
 style:  "Shark Simulator"
@@ -15,4 +15,6 @@ localImage : ""
 image : ""
 link : "http://gamejolt.com/games/shark-cop-justice-legacy/80479"
 ---
-Follow shark cop on a normal day at work. Fill paperwork, harass commissioner Pencil Washington, get Starlin back in jail and harm over a hundred fishes in the process !
+Follow shark cop on a normal day at work. Fill paperwork, harass commissioner Pencil Washington, get Starlin back in jail and harm over a hundred fish in the process !
+
+This game was made for the Indies vs Gamers jam where the winning game was to be played by a few famous youtubers. Despite not winning, the game still managed to reach over 100k views on Youtube.

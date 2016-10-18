@@ -1,0 +1,31 @@
+---
+layout: Portfolio/game
+category : game
+weight : 90
+title:  "Confluxx"
+engine: "Unity 4"
+style:  "Puzzle"
+year:   "2014"
+team: "solo"
+role : ""
+
+video : ""
+localImage : 
+
+- "img_confluxx.png"
+- "img_confluxx_2.png"
+- "img_confluxx_3.png"
+- "img_confluxx_4.png"
+- "img_confluxx_5.png"
+- "img_confluxx_6.png"
+- "img_confluxx_7.png"
+- "img_confluxx_8.png"
+- "img_confluxx_9.png"
+- "img_confluxx_10.png"
+
+image : ""
+link : "http://gamejolt.com/games/confluxx/199188"
+---
+The first non-gamejam game I made. I spent a summer making this game learning programming and game design.
+
+The game is heavily inspired by Portal and Antichamber. It is a mind-bending puzzle game where the world shifts around you. The player has the power to copy certain objects and switch dimensions to resolved various puzzles. A little over an hour of gameplay has been made for this game.

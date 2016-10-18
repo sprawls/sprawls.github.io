@@ -1,0 +1,24 @@
+---
+layout: Portfolio/gamejam
+category : game
+weight : 105
+title:  "Breakout VR"
+engine: "Unity 5"
+style:  "VR / Action"
+year:   "2016"
+jam:    "Ludum Dare 36"
+team: "4"
+role : ""
+
+video : ""
+localImage : 
+
+- "img_breakout.png"
+- "img_breakout_2.png"
+
+image : ""
+link : "http://ludumdare.com/compo/ludum-dare-36/?action=preview&uid=29314"
+---
+A reimagining of the classic breakout game in VR. We wanted to try our hands at VR so we decided to take something really basic and try to make it as fun as possible !
+
+Here's a video of it : http://tinyurl.com/BreakoutVR

@@ -1,0 +1,20 @@
+---
+layout: Portfolio/game
+category : game
+weight : 155
+title:  "Watch Dogs 2" 
+engine: ""
+style:  "Open World Action-Adventure"
+year:   "2016"
+team: "Too big to count"
+role : "AI Programmer"
+
+video : "http://www.youtube.com/embed/hh9x4NqW0Dw"
+localImage : ""
+image : ""
+link : ""
+---
+Players control Marcus Holloway, a hacker who works with the hacking group DedSec to take down the city's ctOS 2.0, an advanced surveillance system. There are multiple ways in which to complete missions, and each successful assignment increases the follower count of DedSec. Cooperative multiplayer allows for competitive one-on-one combat and connecting with other players in order to neutralize a player who is actively causing havoc.
+
+I worked as an AI Programmer for the last months of production for Watch Dogs 2.
+Thanks to the great team at Ubisoft for this opportunity !

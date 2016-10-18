@@ -1,5 +1,5 @@
 ---
-layout: gamejam
+layout: Portfolio/gamejam
 category : game
 weight : 40
 title:  "Blind Blitz"
