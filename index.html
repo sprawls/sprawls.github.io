@@ -50,8 +50,12 @@ layout: Portfolio/default
           <div class="game-body">
             <!-- Game's description -->
             <div class="game-description">
+              {% if {{game.style}} != "" %} 
               <li class="game-meta" >{{ game.style }}</li>
+              {% endif %}
+              {% if {{game.engine}} != "" %} 
               <li class="game-meta" >Made with {{ game.engine }}</li>
+              {% endif %}
               {% if {{game.team}} != "" %} 
                 <li class="game-meta" > Team Size : {{ game.team }}</li>
               {% endif %}
