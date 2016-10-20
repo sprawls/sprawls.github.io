@@ -74,7 +74,7 @@ video { display: block; }
 	header {
 		width: 100%;
 		min-height: 100vh;
-		background: url('../../public/Entropy/images/background.jpg');
+		background: url('../../public/Entropy/images/background_particles_1.png');
 		background-size: cover;
 	}
 }
