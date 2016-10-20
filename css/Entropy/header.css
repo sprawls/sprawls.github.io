@@ -13,16 +13,24 @@ header {
 	position: absolute;
 	top: 40px;
 	left: 50%;
-	margin-left: -2.1em;
+	margin-left: -2.3em;
 	text-transform: uppercase;
-	font-size: 6vw;
+	font-size: 10vw;
+	font-weight: bold;
+
+	/*animation-name: textColorChange;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;*/
 }
 #googlePlayButton {
 	position: absolute;
-	width: 15vw;
-	bottom: 90px;
+	width: 17vw;
+	bottom: 80px;
 	left: 50%;
-	margin-left: -7vw;
+	margin-left: -9vw;
 }
 
 
@@ -47,26 +55,24 @@ video { display: block; }
 /* MEDIA QUERIES*/
 @media screen and (max-width: 768px) {
 	#main-title {
-		font-size: 7vw;
+		font-size: 8.5vw;
 	}
 	#googlePlayButton {
 		bottom: 60px;
 		width: 20vw;
-		margin-left: -9vw;
-	}
-	header .chevron {
+		margin-left: -10vw;
 	}
 }
 
 @media screen and (max-width: 450px) {
 	#main-title {
-		font-size: 10vw;
-		top: 20px;
+		font-size: 13vw;
+		top: 35px;
 	}
 	#googlePlayButton {
-		top: 95px;
-		width: 25vw;
-		margin-left: -11vw;
+		bottom: 120px;
+		width: 35vw;
+		margin-left: -18vw;
 	}
 	#header-video {
 		display: none;
@@ -89,4 +95,16 @@ video { display: block; }
     	bottom: 0px;
     	opacity: 0;
     }
+}
+
+@keyframes textColorChange {
+	from {
+		color: #fff;
+	}
+	50% {
+		color: #A4CC9D;
+	}
+	to {
+		color: #FFBCBC;
+	}
 }
