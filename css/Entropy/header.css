@@ -13,7 +13,7 @@ header {
 	position: absolute;
 	top: 40px;
 	left: 50%;
-	margin-left: -2.3em;
+	transform: translateX(-50%);
 	text-transform: uppercase;
 	font-size: 10vw;
 	font-weight: bold;
@@ -30,7 +30,7 @@ header {
 	width: 17vw;
 	bottom: 80px;
 	left: 50%;
-	margin-left: -9vw;
+	transform: translateX(-50%);
 }
 
 
@@ -55,12 +55,12 @@ video { display: block; }
 /* MEDIA QUERIES*/
 @media screen and (max-width: 768px) {
 	#main-title {
+		top: 25px;
 		font-size: 8.5vw;
 	}
 	#googlePlayButton {
 		bottom: 60px;
 		width: 20vw;
-		margin-left: -10vw;
 	}
 }
 
@@ -72,7 +72,6 @@ video { display: block; }
 	#googlePlayButton {
 		bottom: 120px;
 		width: 35vw;
-		margin-left: -18vw;
 	}
 	#header-video {
 		display: none;
