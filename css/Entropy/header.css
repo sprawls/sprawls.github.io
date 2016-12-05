@@ -5,6 +5,13 @@ header {
 	margin-bottom: -5px;
 	min-height: 100%;
 }
+header svg {
+	position: absolute;
+	top: 60px;
+	left: 50%;
+	transform: translate(-50%, 0);
+	width: 50%;
+}
 #header-video {
 	width: 100%;
 	min-height: 100%;
@@ -64,7 +71,7 @@ video { display: block; }
 	}
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 600px) {
 	#main-title {
 		font-size: 13vw;
 		top: 35px;

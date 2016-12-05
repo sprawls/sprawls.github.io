@@ -6,37 +6,53 @@
 }
 #infoSection p {
 	font-style: italic;
-	font-size: 1.9em;
+	font-size: 1.7em;
 }
-#infoSection p .quote-mark {
-	font-size: 140%;
-	font-family: "Georgia", serif;
-}
-
 #infoSection .flex-container {
+	padding: 20px 45px;
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-align: center;
-	    align-items: center;
+	align-items: center;
+	-ms-flex-direction: row;
+	    flex-direction: row;
+	-webkit-flex-direction: row;
+	-ms-flex-pack: justify;
+	    justify-content: center;
+}
+.img-responsive.info-img {
+	display: none;
+	width: 30%;
 }
 
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 600px) {
+	.img-responsive.info-img {
+		display: block;
+		width: 100%;
+	}
+	#infoSection .flex-container {
+		-ms-flex-direction: column;
+	    flex-direction: column;
+	    padding: 0;
+	}
 	#infoSection p {
-		padding: 0 60px;
+		padding: 0 45px;
 		font-size: 1.5em;
+	}
+	#quote-container {
+		margin: 20px 0;
 	}
 }
 @media screen and (max-width: 767px) {
 	#infoSection p {
-		margin: 40px 0;
 		font-size: 1.6em;
 	}
 	#infoSection .flex-container {
 		display: block;
 	}
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 480px) {
 	#infoSection p {
 		font-size: 1.3em;
 	}
