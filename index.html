@@ -92,6 +92,15 @@ layout: Portfolio/default
                   
             </div>         
           </div>
+          <!--  Game Link-->     
+          {% if {{game.link}} != "" %} 
+            <div class="game-link-div">
+              <br>
+              <hr>
+              <a href="{{ game.link }}" class="game-link"> Link to the Game </a>
+            </div>
+          {% endif %}
+
       </div>
 
 
