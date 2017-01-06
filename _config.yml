@@ -14,7 +14,7 @@ url: "https://sprawls.github.io" # the base hostname & protocol for your site
 twitter_username: Alexis_Lessard
 github_username:  Sprawls
 linkedin_url:     https://www.linkedin.com/in/alexis-lessard-9374b811a
-cv_path :  /public/Portfolio/cv_alexis_lessard.pdf
+#cv_path :  /public/Portfolio/cv_alexis_lessard.pdf
 
 
 # Build settings
