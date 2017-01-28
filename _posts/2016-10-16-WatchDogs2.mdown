@@ -12,7 +12,7 @@ role : "AI Programmer"
 video : "https://www.youtube.com/embed/hh9x4NqW0Dw"
 localImage : ""
 image : ""
-link : ""
+link : "http://store.steampowered.com/agecheck/app/447040/"
 ---
 Players control Marcus Holloway, a hacker who works with the hacking group DedSec to take down the city's ctOS 2.0, an advanced surveillance system. There are multiple ways in which to complete missions, and each successful assignment increases the follower count of DedSec. Cooperative multiplayer allows for competitive one-on-one combat and connecting with other players in order to neutralize a player who is actively causing havoc.
 

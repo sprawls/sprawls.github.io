@@ -17,6 +17,6 @@ localImage :
 - "img_silhouette_3.png"
 
 image : ""
-link : ""
+link : "https://github.com/sprawls/ProcessingParticles/archive/master.zip"
 ---
 A small game made with processing for a art class in college. The player must dicover the hidden shapes by spawning and controlling particles that changes color based on the hidden shape. 
