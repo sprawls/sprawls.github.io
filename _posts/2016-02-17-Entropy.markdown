@@ -1,7 +1,7 @@
 ---
 layout: Portfolio/gamejam
 category : game
-weight : 125
+weight : 85
 title:  "Entropy (Gamejam)"
 engine: "Unity 5"
 style:  "Puzzle"

@@ -10,7 +10,7 @@ jam:    "Ludum Dare 36"
 team: "4"
 role : ""
 
-video : "https://gfycat.com/ifr/PracticalSandyBedbug"
+video : "https://gfycat.com/ifr/SpanishIdealisticDromaeosaur"
 localImage : 
 
 - "img_breakout.png"
