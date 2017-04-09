@@ -9,7 +9,7 @@ year:   "2016"
 team: "solo"
 role : ""
 
-video : ""
+video : "https://gfycat.com/ifr/WelldocumentedNervousHoopoe"
 localImage : 
 
 - "img_entropyfull.png"

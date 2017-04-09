@@ -74,9 +74,10 @@ layout: Portfolio/default
                   
                 
                   {% if {{game.video}} != "" %}
-                    <div class="fluidMedia">
+                    <div class="fluidMedia {% if {{game.video contains 'gfycat'}} %}gfycat{% endif %}">
+
                     {% for vid in game.video %}
-                      <div><iframe src={{ vid }} frameborder="0" allowfullscreen></iframe></div>   
+                      <iframe src={{ vid }} frameborder="0" allowfullscreen></iframe>   
                     {% endfor %}
                     </div>
                   {% else %}

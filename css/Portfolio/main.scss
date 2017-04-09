@@ -31,6 +31,7 @@ $on-laptop:        800px;
 
 /*Custom values*/
 $small-width:      800px;
+$ultra-small-width:480px;
 $img-margin-small: 10px;
 
 
@@ -130,7 +131,9 @@ body {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
     /*small width*/
     @media (max-width: $small-width) {
         -webkit-flex-direction: column-reverse;
@@ -156,36 +159,37 @@ body {
         -ms-flex-pack: center;
             justify-content: center;
 
-    /*big width*/
-    @media (min-width: $small-width) {
-        float : right;
-        width : 50%;
-        padding-left : 5px;
-    }
     text-align: justify;
+    width: 50%;
 
+    @media (max-width: $small-width) {
+        width: 100%;
+    }
 }
 
 .game-content {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
     -webkit-justify-content: center;
         -ms-flex-pack: center;
             justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;        
+    align-items: center;
 
     text-align: center;
+    width: 50%;
+    padding: 0 15px;
+    box-sizing: border-box;
 
-    /*big width*/
-    @media (min-width: $small-width) {
-        float : left;
-        width : 50%;
-    }
+
     @media (max-width: $small-width) {
         padding : 8px;
+        width: 100%;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     }  
 
     
@@ -200,27 +204,65 @@ body {
 
 .game-meta-description{
     margin-top : 6px;
-    padding: 0px 25px 0px;
+    padding: 0px 25px;
     font-weight : lighter;
+
+    @media (max-width: $ultra-small-width) {
+        padding: 0;
+    }
 }
 
 .fluidMedia-image{
     width : 100%;
-    box-shadow: 0 0 0pt 2pt black;
+    box-sizing: border-box;
+    //box-shadow: 0 0 0pt 2pt black;
 
+    img {
+        @media (max-width: $small-width) {
+            margin: 0 auto;
+        }
+    }
+    .slick-prev {
+        left: -25px !important;
+        @media (max-width: $ultra-small-width) {
+            left: -30px !important;
+        }
+    }
+    .slick-next {
+        right: -25px !important;
+        @media (max-width: $ultra-small-width) {
+            right: -30px !important;
+        }
+    }
+    .slick-arrow {
+        z-index: 2;
+    }
     /*Small width*/
     @media (max-width: $small-width) {
         margin-bottom : $img-margin-small;
+        padding: 0 20px;
+    }
+    @media (max-width: $ultra-small-width) {
+        padding: 0 10px;
     }
 }
 
-.fluidMedia {
+.fluidMedia:not(.gfycat) {
     position: relative;
     padding-bottom: 56.25%; /* proportion value to aspect ratio 16:9 (9 / 16 = 0.5625 or 56.25%) */
     padding-top: 0px;
     height: 0;
+    width: 100%;
     overflow: hidden;
-    box-shadow: 0 0 0pt 2pt black;
+    //box-shadow: 0 0 0pt 2pt black;
+
+    iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
 
     /*Small width*/
     @media (max-width: $small-width) {
@@ -228,13 +270,19 @@ body {
     }
 }
 
-.fluidMedia iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
+.fluidMedia.gfycat {
     width: 100%;
     height: 100%;
 
+    iframe {
+        width: 100%;
+        height: 100%;
+    }
+
+    /*Small width*/
+    @media (max-width: $small-width) {
+        margin-bottom : $img-margin-small;
+    }
 }
 
 .mobile-separator {

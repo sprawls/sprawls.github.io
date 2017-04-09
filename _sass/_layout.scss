@@ -211,6 +211,10 @@
     @include media-query($on-laptop) {
         font-size: 36px;
     }
+    @media (max-width: $ultra-small-width) {
+        font-size: 24px;
+        font-weight: bold;
+    }
 }
 
 .post-content {
