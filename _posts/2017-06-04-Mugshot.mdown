@@ -1,0 +1,18 @@
+-
+layout: Portfolio/gamejam
+category : game
+weight : 5
+title:  "Mugshot"
+engine: "Unity 5"
+style:  "Horror Game"
+year:   "2016"
+jam: 	"Asylum Jam 2016"
+team: "4"
+role : ""
+
+video : "https://gfycat.com/ifr/InfiniteVerifiableAfricanhornbill"
+localImage : ""
+image : ""
+link : "http://gamejolt.com/games/mugshot/208572"
+---
+Play as a cop that cannot escape his past. Using a camera, the player is able to see a another version of reality and uncover the truth.
