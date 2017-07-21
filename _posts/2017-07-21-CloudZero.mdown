@@ -1,0 +1,18 @@
+---
+layout: Portfolio/gamejam
+category : game
+weight : 125
+title:  "Cloud Zero"
+engine: "Unity 5"
+style:  "Action"
+year:   "2017"
+jam: 	"Game Maker's Toolkit Jam"
+team: "solo"
+role : ""
+
+video : "https://gfycat.com/ifr/InbornHotAmericancrow"
+localImage : ""
+image : ""
+link : "https://sprawl.itch.io/cloud-zero"
+---
+With the jam theme of "Downwell's Dual-Purpose Mechanics", this game forces the player to manage the heat of his ship to reach ludicrous speed. By turning, the heat of the ship is reduced and by boosting, it increases. This forces the player to constantly alternate between the two to score as many points as possible.
