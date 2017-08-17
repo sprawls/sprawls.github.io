@@ -16,5 +16,4 @@ link : ""
 ---
 Arcade racing mobile game made over the course of a year. In Electric Universe, the player must survive a procedurally generated environment by passing near obstacles in order to refill its constantly depleting energy.
 
-Currently set out to be released in Summer 2016 on Android.
 Original game made in 2015 Winter Wonderjam.
