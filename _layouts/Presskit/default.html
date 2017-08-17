@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  
+  {% include Presskit/head.html %}
+
+  <body>
+    <header>
+      {% include Portfolio/header.html %}
+    </header>
+
+
+    <article class="post Presskit-Post">
+      <div class="Presskit-FactsAbout">
+        <div class="Presskit-Facts">
+          {% include Presskit/facts.html %}  
+        </div>
+
+        <div class="Presskit-About">
+          {% include Presskit/about.html %}  
+        </div>
+      </div>
+      
+      <div class="Presskit-Media">
+        {% include Presskit/media.html %}  
+      </div>
+      
+    
+    </article>
+    <footer>
+      {% include Portfolio/footer.html %}
+    </footer>
+  </body>
+</html>
