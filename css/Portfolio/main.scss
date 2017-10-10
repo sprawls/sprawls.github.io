@@ -406,6 +406,39 @@ body {
     }   
 }
 
+.Presskit-Media .iframe-wrapper {
+    align-self : center;
+    flex : 0 0 auto;
+    margin-bottom : 20px;
+
+    width : 32%;
+
+    .iframe-ctn-16-10 {
+        position: relative;
+        padding-bottom: 10 / 16 * 100%;
+        width: 100%;
+    }
+    .iframe-ctn-16-9 {
+        position: relative;
+        padding-bottom: 9 / 16 * 100%;
+        width: 100%;
+    }
+    iframe {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+    @media (max-width: $small-width) {
+        width : 48%
+    }   
+    @media (max-width: $on-palm) {
+        width : 100%
+    }   
+}
+
+
 .Presskit-MediaGallery {
     min-width : 0;
 
@@ -427,4 +460,15 @@ body {
             -ms-flex-direction: column-reverse;
                 flex-direction: column-reverse;
     }   
+}
+
+.Presskit-Media-Title {
+    margin-top : 15px;
+    margin-bottom : 15px;
+    text-align: center;
+    width : 100%;
+
+    font-size : 1.5em;
+    font-weight : 100;
+
 }
