@@ -1,0 +1,258 @@
+$somos-font-family: "Open Sans", "arial", "helvetica", "sans serif";
+
+#somos-cover {
+    position: relative;
+    width: 100%;
+    height: 100vh;   
+    overflow: hidden;
+
+    @media screen and (max-width: 700px - 1) {
+        height: 320px;
+        overflow: auto;
+    }
+    @media screen and (max-width: 600px - 1) {
+        height: 300px;
+    }
+    @media screen and (max-width: 480px - 1) {
+        height: 250px;
+    }
+}
+.cover-section-background-ctn {
+    width: 100%;
+    height: 100%;
+
+    .bk-black, .bk-white {
+        width: 50%;
+        height: 100%;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .bk-black {
+        background-color: black;
+    }
+    .bk-white {
+        background-color: white;
+    }
+}
+.cover-section-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+
+    .icon-ctn {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 50%;
+        transform: translate(0, -50%);
+        transition: left 400ms cubic-bezier(.12,.41,.62,1.17);
+        text-align: center;
+        
+        svg {
+            width: 220px;
+            height: 220px;
+            cursor: pointer;
+            transition: fill 400ms cubic-bezier(.12,.41,.62,1.17);
+
+            @media screen and (max-width: 900px) {
+                width: 200px;
+                height: 200px;
+            }
+            @media screen and (max-width: 768px - 1) {
+                width: 180px;
+                height: 180px;
+            }
+        }
+        @media screen and (max-width: 700px) {
+            display: none;
+        }
+    }
+    &.left {
+        .icon-ctn {
+            left: 0;
+            svg {
+                fill: white;
+            }
+        }
+        .right-content {
+            opacity: 1;
+        }
+        .left-content {
+            opacity: 0;
+        }
+    }
+    .left-content, .right-content {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        width: 50%;
+        box-sizing: border-box;
+        transition: opacity 400ms ease;
+
+        @media screen and (max-width: 700px) {
+            display: none;
+        }
+    }
+    .right-content {
+        opacity: 0;
+    }
+    .left-content-inner {
+        text-align: center;
+        padding: 0 40px;
+        box-sizing: border-box;
+    }
+    .left-content {
+        color: white;
+        .description {
+            font-family: $somos-font-family;
+            color: white;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+            margin-bottom: 60px;
+            span {
+                display: block;
+                &:not(:first-child) {
+                    margin-top: 10px;
+                }
+            }
+            @media screen and (max-width: 900px) {
+                font-size: 14px;
+                line-height: 22px;
+            }
+        }
+        .twitter-link {
+           color: white;
+           text-decoration: none;
+           font-family: $somos-font-family;
+           font-size: 14px;
+            svg {
+                width: 45px;
+                height: 45px;
+                display: inline-block;
+                vertical-align: middle;
+                margin-right: 10px;
+                * {
+                    fill: white;
+                }                
+            }
+        }
+    }
+    .right-content {
+        color: black;
+    }
+
+    .logo-ctn {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 0 15px 15px;
+        box-sizing: border-box;
+        text-align: center;
+        img {
+            max-width: 100%;
+            max-height: 300px;
+            transform: scaleX(-1);
+
+            @media screen and (max-width: 768px - 1) {
+                max-height: 220px;
+            }
+        }
+    }
+    .logos-ctn {
+        width: 100%;
+        height: 120px;
+        position: absolute;
+        bottom: 15px;
+        padding: 0 4%;
+        left: 0;
+        display: flex;
+        justify-content: space-around;
+
+        img {
+            align-self: center;
+            max-height: 100%;
+            max-width: 100px;
+
+            @media screen and (max-width: 768px - 1) {
+                max-width: 70px;
+            }
+            @media screen and (max-width: 600px - 1) {
+                max-width: 12.5%;
+            }
+        }
+
+        @media screen and (max-width: 768px - 1) {
+            height: 100px;
+        }
+        @media screen and (max-width: 600px - 1) {
+            height: auto;
+        }
+    }
+}
+
+/**
+  mailchimp form
+*/
+@mixin placeholder {
+    ::-webkit-input-placeholder {@content}
+    :-moz-placeholder           {@content}
+    ::-moz-placeholder          {@content}
+    :-ms-input-placeholder      {@content}  
+}
+#mc_embed_signup {
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 15px;
+    box-sizing: border-box;
+    width: 420px;
+    max-width: 100%;
+
+    label {
+        font-family: $somos-font-family;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    input[type=email] {
+        border: 1px solid black;
+        padding: 12px 15px;
+        color: black;
+        font-size: 16px;
+        outline: 0;
+        border-radius: 5px;
+        width: 100%;
+
+        @include placeholder {
+            color: black;
+            font-weight: bold;
+            opacity: 1;
+            font-size: 16px;
+        }
+    }
+    .input-ctn {
+        margin: 20px 0 10px;
+        
+    }
+    input[type=submit] {
+        padding: 12px 25px;
+        background-color: black;
+        color: white;
+        font-weight: bold;
+        border-radius: 5px;
+        border: 0;
+        text-transform: uppercase;
+        font-size: 16px;
+        width: 100%;
+        cursor: pointer;
+        outline: 0;
+        transition: background-color 300ms ease;
+
+        &:hover {
+            background-color: rgb(17, 17, 17);
+        }
+    }
+}

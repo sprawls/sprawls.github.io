@@ -1,0 +1,57 @@
+$black: #000;
+
+$content-width: 1600px;
+$base-font-weight: normal;
+$base-font-size: 1.6rem;
+$base-line-height: 2.4rem;
+$base-font-family: "Open Sans", "arial", "helvetica", "sans serif";
+$text-color: $black;
+$background-color: #fff;
+$spacing-unit: 0;
+$small-font-size: 1.2rem;
+$brand-color: $black;
+
+
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 62.5%;
+}
+
+
+
+/*@font-face {
+    font-family: $open-sans-font;
+    src: url(font_path("opensans-regular-webfont.eot"));
+    src:    url(font_path("opensans-regular-webfont.eot#iefix")) format("embedded-opentype"), 
+            url(font_path("opensans-regular-webfont.woff2")) format("woff2"),
+            url(font_path("opensans-regular-webfont.woff")) format("woff"),
+            url(font_path("opensans-regular-webfont.ttf")) format("truetype"),
+            url(font_path("opensans-regular-webfont.svg")) format("svg");
+}
+
+@font-face {
+    font-family: $open-sans-font;
+    src: url(font_path("opensans-light-webfont.eot"));
+    src:    url(font_path("opensans-light-webfont.eot#iefix")) format("embedded-opentype"), 
+            url(font_path("opensans-light-webfont.woff2")) format("woff2"),
+            url(font_path("opensans-light-webfont.woff")) format("woff"),
+            url(font_path("opensans-light-webfont.ttf")) format("truetype"),
+            url(font_path("opensans-light-webfont.svg")) format("svg");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: $open-sans-font;
+    src: url(font_path("opensans-medium-webfont.eot"));
+    src:    url(font_path("opensans-medium-webfont.eot#iefix")) format("embedded-opentype"), 
+            url(font_path("opensans-medium-webfont.woff2")) format("woff2"),
+            url(font_path("opensans-medium-webfont.woff")) format("woff"),
+            url(font_path("opensans-medium-webfont.ttf")) format("truetype"),
+            url(font_path("opensans-medium-webfont.svg")) format("svg");
+    font-weight: 500;
+}*/

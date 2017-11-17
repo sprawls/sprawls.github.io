@@ -5,10 +5,12 @@
 
 //Font import
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700);
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 //CSS import
-@import url('header.css');
-@import url('cover.css');
+@import 'Somos/cover';
+@import 'Somos/mobile-content';
+@import 'Somos/base';
 @import url('footer.css');
 
 // Use media queries like this:
@@ -29,11 +31,6 @@
 $small-width:      800px;
 $img-margin-small: 10px;
 
-body, html {
-	height: 100%;
-}
-.site-container {
-  width: 100%;
-  min-height: 100%;
-  text-align: center;
+* {
+    box-sizing: border-box;
 }

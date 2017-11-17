@@ -1,0 +1,56 @@
+/**
+MOBILE
+*/
+.cover-mobile-content {
+    
+    .title {
+        font-family: $somos-font-family;
+        color: black;
+        font-size: 30px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        text-align: center
+    }
+    .description {
+        font-family: $somos-font-family;
+        color: black;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        margin-bottom: 40px;
+        padding: 0 4%;
+        box-sizing: border-box;
+        span {
+            display: block;
+            &:not(:first-child) {
+                margin-top: 10px;
+            }
+        }
+        @media screen and (max-width: 900px) {
+            font-size: 14px;
+            line-height: 22px;
+        }
+    }
+    .twitter-link {
+        display: block;
+        text-align: center;
+       color: black;
+       text-decoration: none;
+       font-family: $somos-font-family;
+       font-size: 14px;
+       margin-bottom: 30px;
+        svg {
+            width: 45px;
+            height: 45px;
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 10px;
+            * {
+                fill: black;
+            }                
+        }
+    }
+    @media screen and (min-width: 700px) {
+        display: none;
+    }       
+}

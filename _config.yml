@@ -19,3 +19,10 @@ linkedin_url:     https://www.linkedin.com/in/alexis-lessard-9374b811a
 
 # Build settings
 markdown: kramdown
+
+gems:
+  - octopress-minify-html
+
+assets:
+  sources:
+    -_assets/fonts
