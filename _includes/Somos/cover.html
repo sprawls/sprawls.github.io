@@ -9,8 +9,7 @@
 		<div class="left-content">
 			<div class="left-content-inner">
 				<p class="description">
-					<span>SOMOS is an abstract action game where the play area is separated in two sides.  Switching side and interacting with the various obstacles is key to survival. Obstacles can only hurt on their side of the screen, but they can only be destroyed from the opposide side ! A careful balance between movement and offense is required to complete the various challenges that await !</span>
-					<span>The core of SOMOS lies in its many challenges. Each of them offers a different experience since they bend the rules and mechanics. Completing those trials will unlock custome color palettes that changes the look of the game.. and sometimes a bit more !</span>
+					<span>SOMOS is an abstract action game coming to mobile and desktop. Switch side to avoid and disrupt the obstacles in order to complete the multiple challenges that await !</span>
 				</p>
 				<a class="twitter-link" href="https://twitter.com/alexis_lessard">{% include Somos/svg/twitter.html %} Follow me on Twitter!</a>
 			</div>
@@ -19,8 +18,20 @@
 			{% include Somos/mailchimp-form.html %}
 		</div>
 		<div class="icon-ctn">
-			{% include Somos/svg/circle.html %}
+			<div class="ring-ctn">
+				{% include Somos/svg/circle.html %}
+				<div> 			
+					{% include Somos/svg/ring.html %}
+					<p>
+						Press To Switch
+					</p>
+				</div>
+
+			</div>
 		</div>
+
+
+
 		<div class="logos-ctn">
 			<img src="/public/Somos/windows.png" alt="windows"/>
 			<img src="/public/Somos/apple.png" alt="apple"/>

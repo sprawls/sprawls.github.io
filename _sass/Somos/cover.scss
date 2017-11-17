@@ -51,24 +51,50 @@ $somos-font-family: "Open Sans", "arial", "helvetica", "sans serif";
         transition: left 400ms cubic-bezier(.12,.41,.62,1.17);
         text-align: center;
         
-        svg {
-            width: 220px;
-            height: 220px;
-            cursor: pointer;
-            transition: fill 400ms cubic-bezier(.12,.41,.62,1.17);
+       
+        .ring-ctn{
+            position : relative;
 
-            @media screen and (max-width: 900px) {
-                width: 200px;
-                height: 200px;
+            > svg {
+                position: relative;
+                width: 220px;
+                height: 220px;
+                cursor: pointer;
+                transition: fill 400ms cubic-bezier(.12,.41,.62,1.17);
+                z-index: 2;
+
+                @media screen and (max-width: 900px) {
+                    width: 200px;
+                    height: 200px;
+                }
+                @media screen and (max-width: 768px - 1) {
+                    width: 180px;
+                    height: 180px;
+                }
             }
-            @media screen and (max-width: 768px - 1) {
-                width: 180px;
-                height: 180px;
+            > div {
+                position : absolute;
+                width: 202px;
+                height: 202px;
+                top : 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                z-index: 1;
+
+                > p {
+                    text-align: center;
+                    font-size: small;
+                    font-family: $somos-font-family;
+                    transform: translate(0,-450%);
+                }
             }
+
         }
+
         @media screen and (max-width: 700px) {
             display: none;
         }
+
     }
     &.left {
         .icon-ctn {
@@ -82,6 +108,10 @@ $somos-font-family: "Open Sans", "arial", "helvetica", "sans serif";
         }
         .left-content {
             opacity: 0;
+        }
+
+        .ring-ctn >div >p {
+            color : white;
         }
     }
     .left-content, .right-content {
