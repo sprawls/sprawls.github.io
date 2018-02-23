@@ -39,7 +39,7 @@ MOBILE
        text-decoration: none;
        font-family: $somos-font-family;
        font-size: 14px;
-       margin-bottom: 30px;
+       margin-bottom: 10px;
         svg {
             width: 45px;
             height: 45px;
@@ -48,10 +48,46 @@ MOBILE
             margin-right: 10px;
             * {
                 fill: black;
-            }                
+            }  
+            
+            @media screen and (max-width: 600px - 1) {
+                width: 35px;
+                height: 25px;
+            }
+        }
+    }
+    .newsletter-form-ctn {
+        padding: 25px 0;
+    }
+    .gif-ctn {
+        width: 100%;
+        padding: 25px 0;
+        text-align: center;
+
+        img {
+            max-width: 100%;
+        }
+    }
+    .gallery {
+        text-align: center;
+        padding: 25px 0;
+
+        img {
+            width: 100%;
+            max-width: 600px;
         }
     }
     @media screen and (min-width: 700px) {
         display: none;
     }       
+}
+
+.mobile-footer {
+    text-align: center;
+    padding-bottom: 30px;
+
+    p {
+        font-size: 1.4rem;
+        font-family: $somos-font-family;
+    }
 }
