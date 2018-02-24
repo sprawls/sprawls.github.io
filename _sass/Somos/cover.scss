@@ -166,6 +166,30 @@ $somos-font-family: "Open Sans", "arial", "helvetica", "sans serif";
                 line-height: 22px;
             }
         }
+        .award {
+
+        }
+        .award-inner {
+            display : flex;
+            align-items : center;
+            justify-content: center;
+            margin-bottom: 25px;
+            svg {
+                fill:white;
+                width: 20px;
+            }
+            p {
+                font-size : 18px;
+                font-style : italic;
+                margin : 0 10px;
+            }
+            .p1 {
+                font-size : 30px;
+            }
+        }
+        .reverse-image svg {
+            transform : scaleX(-1);
+        }
         .twitter-link {
            color: white;
            text-decoration: none;
@@ -196,6 +220,27 @@ $somos-font-family: "Open Sans", "arial", "helvetica", "sans serif";
     .right-content {
         color: black;
         margin-left: auto;
+        .mailingList {
+            margin: 0 auto;
+            .description {
+                font-family: $somos-font-family;
+                color: black;
+                font-size: 22px;
+                line-height: 24px;
+                text-align: center;
+                margin-bottom: 60px;
+                span {
+                    display: block;
+                    &:not(:first-child) {
+                        margin-top: 10px;
+                    }
+                }
+                @media screen and (max-width: 900px) {
+                    font-size: 18px;
+                    line-height: 22px;
+                }
+            }
+        }
     }
     .gallery {
         width: 100%;

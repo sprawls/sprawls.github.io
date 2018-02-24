@@ -8,10 +8,28 @@
 		</div>
 		<div class="left-content cover-content in-view" data-order="1">
 			<div class="left-content-inner">
+				<div class= "award">
+					<div class= "award-inner">
+						<div>
+							{% include Somos/svg/award-branch-left.svg %} 
+						</div> 
+						<div>
+							<p class="p1">MIGF</p>
+							<p>Best Mobile Game</p>
+						</div>
+						<div class = "reverse-image">
+							{% include Somos/svg/award-branch-left.svg %}
+						</div>
+					</div> 
+				</div>
 				<p class="description">
-					<span>SOMOS is an abstract action game coming to mobile and desktop. Switch side to avoid and disrupt the obstacles in order to complete the multiple challenges that await !</span>
+					<span>SOMOS is an abstract action game coming to mobile and desktop. Switch side to avoid and disrupt the obstacles in order to complete the challenges that await you !</span>
 				</p>
-				<a class="twitter-link" href="https://twitter.com/alexis_lessard">{% include Somos/svg/twitter.html %} Follow me on Twitter!</a>
+				
+				<div>
+					<a class="twitter-link" href="https://twitter.com/alexis_lessard">{% include Somos/svg/twitter.html %} </a>
+					<a class="twitter-link" href="https://www.facebook.com/SOMOSGame/">{% include Somos/svg/facebook.svg %}</a>
+				</div>
 			</div>
 		</div>
 		<div class="left-content cover-content" data-order="3">
@@ -22,7 +40,12 @@
 			</div>
 		</div>
 	 	<div class="right-content cover-content" data-order="2">
-			{% include Somos/mailchimp-form.html %}
+	 		<div class ="mailingList">
+		 		<p class="description">
+					<span>Want to hear only about important updates ?</span>
+				</p>
+				{% include Somos/mailchimp-form.html %}
+			</div>
 		</div>
 		<div class="right-content cover-content" data-order="4">
 			<div class="right-content-inner gallery">
