@@ -1,0 +1,27 @@
+---
+layout: Portfolio/game
+category : game
+weight : 250
+title:  "SOMOS"
+engine: "Unity 5"
+style:  "Arcade Action Rhythm"
+year:   "2017-2018"
+team: "solo"
+role : ""
+
+video : ""
+localImage : 
+
+- "somos_1.png"
+- "somos_4.png"
+- "somos_7.png"
+- "somos_5.png"
+
+image : ""
+link : "http://sprawls.github.io/somos"
+---
+SOMOS is an action game focused on movement. To destroy and avoid the various obstacles, the player will be forced to switch between the two sides of the screen. The game contains many unique challenges which tweak the rules of the game to offer interesting and unique gameplay throughout the whole experience.
+
+The game has been made with the help of Jacob Leaney for the sounds and music.
+
+Visit the website below for more information !
