@@ -3,12 +3,14 @@ $somos-font-family: "Open Sans", "arial", "helvetica", "sans serif";
 #somos-cover {
     position: relative;
     width: 100%;
-    height: 100vh;   
+    height: 100vh;  
+    min-height: 768px; 
     overflow: hidden;
 
     @media screen and (max-width: 700px - 1) {
         height: 320px;
         overflow: auto;
+        min-height: 0;
     }
     @media screen and (max-width: 600px - 1) {
         height: 300px;
@@ -125,6 +127,7 @@ $somos-font-family: "Open Sans", "arial", "helvetica", "sans serif";
     .left-content, .right-content {
         display: flex;
         align-items: center;
+        justify-content: center;
         height: 100%;
         width: 50%;
         box-sizing: border-box;
@@ -148,10 +151,18 @@ $somos-font-family: "Open Sans", "arial", "helvetica", "sans serif";
     }
     .left-content {
         color: white;
+    }
+    .right-content {
+        color: black;
+        margin-left: auto;
+    }
+
+    .mailingList {
+        margin: 0 auto;
         .description {
             font-family: $somos-font-family;
-            color: white;
-            font-size: 16px;
+            color: black;
+            font-size: 22px;
             line-height: 24px;
             text-align: center;
             margin-bottom: 60px;
@@ -162,89 +173,86 @@ $somos-font-family: "Open Sans", "arial", "helvetica", "sans serif";
                 }
             }
             @media screen and (max-width: 900px) {
-                font-size: 14px;
+                font-size: 18px;
                 line-height: 22px;
             }
         }
-        .award {
-
-        }
-        .award-inner {
-            display : flex;
-            align-items : center;
-            justify-content: center;
-            margin-bottom: 25px;
-            svg {
-                fill:white;
-                width: 20px;
-            }
-            p {
-                font-size : 18px;
-                font-style : italic;
-                margin : 0 10px;
-            }
-            .p1 {
-                font-size : 30px;
-            }
-        }
-        .reverse-image svg {
-            transform : scaleX(-1);
-        }
-        .twitter-link {
-           color: white;
-           text-decoration: none;
-           font-family: $somos-font-family;
-           font-size: 14px;
-            svg {
-                width: 45px;
-                height: 45px;
-                display: inline-block;
-                vertical-align: middle;
-                margin-right: 10px;
-                * {
-                    fill: white;
-                }                
-            }
-        }
-        .gif-ctn img {
-            max-width: 100%;
-
-            @media screen and (max-height: 600px - 1) {
-                max-height: 250px;
-            }
-            @media screen and (max-height: 480px - 1) {
-                max-height: 220px;
-            }
+        #mc_embed_signup {
+            width: auto;
         }
     }
-    .right-content {
+
+    .reverse-image svg {
+        transform : scaleX(-1);
+    }
+    .twitter-link {
         color: black;
-        margin-left: auto;
-        .mailingList {
-            margin: 0 auto;
-            .description {
-                font-family: $somos-font-family;
-                color: black;
-                font-size: 22px;
-                line-height: 24px;
-                text-align: center;
-                margin-bottom: 60px;
-                span {
-                    display: block;
-                    &:not(:first-child) {
-                        margin-top: 10px;
-                    }
-                }
-                @media screen and (max-width: 900px) {
-                    font-size: 18px;
-                    line-height: 22px;
-                }
-            }
+        text-decoration: none;
+        font-family: $somos-font-family;
+        font-size: 14px;
+        svg {
+            width: 45px;
+            height: 45px;
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 10px;
+            * {
+                fill: black;
+            }                
         }
     }
+    .gif-ctn img {
+        max-width: 100%;
+
+        @media screen and (max-height: 600px - 1) {
+            max-height: 250px;
+        }
+        @media screen and (max-height: 480px - 1) {
+            max-height: 220px;
+        }
+    }
+
+     .description {
+        font-family: $somos-font-family;
+        color: black;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        margin-bottom: 45px;
+        span {
+            display: block;
+            &:not(:first-child) {
+                margin-top: 10px;
+            }
+        }
+        @media screen and (max-width: 900px) {
+            font-size: 14px;
+            line-height: 22px;
+        }
+    }
+    .award-inner {
+        display : flex;
+        align-items : center;
+        justify-content: center;
+        margin-bottom: 25px;
+        svg {
+            fill:black;
+            width: 20px;
+        }
+        p {
+            font-size : 18px;
+            font-style : italic;
+            margin : 0 10px;
+        }
+        .p1 {
+            font-size : 30px;
+        }
+    }
+
     .gallery {
         width: 100%;
         padding: 0 15px;
+
         .img-ctn {
             display: inline-block;
             vertical-align: top;
@@ -300,6 +308,32 @@ $somos-font-family: "Open Sans", "arial", "helvetica", "sans serif";
             }
         }
     }
+
+    .video-section, .gallery-ctn {
+        #mc_embed_signup input[type=submit] {
+            background-color: white;
+            color: black;
+
+            &:hover {
+                background-color: #f0f0f0;
+            }
+        }
+        .mailingList {
+            margin-top: 30px;
+        }
+    }
+    .award-ctn {
+        text-align: center;
+        padding: 30px;
+
+        .mailingList {
+            margin-top: 30px;
+        }
+    }
+    .mailing-section {
+        padding: 0 30px;
+    }
+
 
     .logo-ctn {
         width: 100%;

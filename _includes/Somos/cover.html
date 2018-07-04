@@ -7,53 +7,68 @@
 			<img src="/public/Somos/logo_sf.png" alt="SOMOS"/>
 		</div>
 		<div class="left-content cover-content in-view" data-order="1">
-			<div class="left-content-inner">
-				<div class= "award">
-					<div class= "award-inner">
-						<div>
-							{% include Somos/svg/award-branch-left.svg %} 
-						</div> 
-						<div>
-							<p class="p1">MIGF</p>
-							<p>Best Mobile Game</p>
-						</div>
-						<div class = "reverse-image">
-							{% include Somos/svg/award-branch-left.svg %}
-						</div>
-					</div> 
+			<div class="left-content-inner video-section">
+				<div class="gif-ctn">
+					<img src="/public/Somos/videos/Montage_1.gif" alt="Somos animated gameplay" />
 				</div>
-				<p class="description">
-					<span>SOMOS is an abstract action game coming to mobile and desktop. Switch side to avoid and disrupt the obstacles in order to complete the challenges that await you !</span>
-				</p>
-				
-				<div>
-					<a class="twitter-link" href="https://twitter.com/alexis_lessard">{% include Somos/svg/twitter.html %} </a>
-					<a class="twitter-link" href="https://www.facebook.com/SOMOSGame/">{% include Somos/svg/facebook.svg %}</a>
+				<div class="mailingList">
+					{% include Somos/mailchimp-form.html %}
 				</div>
 			</div>
 		</div>
 		<div class="left-content cover-content" data-order="3">
-			<div class="left-content-inner">
-				<div class="gif-ctn">
-					<img src="/public/Somos/videos/Montage_1.gif" alt="Somos animated gameplay" />
+			<div class="left-content-inner gallery-ctn">
+				<div class="gallery">
+					<div class="img-ctn"><div class="img-ctn-inner"></div></div><!--
+					--><div class="img-ctn"><div class="img-ctn-inner"></div></div><!--
+					--><div class="img-ctn"><div class="img-ctn-inner"></div></div><!--
+					--><div class="img-ctn"><div class="img-ctn-inner"></div></div><!--
+				--></div>
+				<div class="mailingList">
+					{% include Somos/mailchimp-form.html %}
 				</div>
 			</div>
 		</div>
 	 	<div class="right-content cover-content" data-order="2">
-	 		<div class ="mailingList">
-		 		<p class="description">
-					<span>Want to hear only about important updates ?</span>
+			<div class="right-content-inner award-ctn">
+				<div class="award">
+					<div class="award-inner">
+						<div>
+							{% include Somos/svg/award-branch-left.svg %}
+						</div>
+						<div>
+							<p class="p1">MIGF</p>
+							<p>Best Mobile Game</p>
+						</div>
+						<div class="reverse-image">
+							{% include Somos/svg/award-branch-left.svg %}
+						</div>
+					</div>
+				</div>
+				<p class="description">
+					<span>SOMOS is an abstract action game coming to mobile and desktop. Switch side to avoid and disrupt the obstacles in order
+						to complete the challenges that await you !</span>
 				</p>
-				{% include Somos/mailchimp-form.html %}
+			
+				<div>
+					<a class="twitter-link" href="https://twitter.com/alexis_lessard">{% include Somos/svg/twitter.html %} </a>
+					<a class="twitter-link" href="https://www.facebook.com/SOMOSGame/">{% include Somos/svg/facebook.svg %}</a>
+				</div>
+
+				<div class="mailingList">
+					{% include Somos/mailchimp-form.html %}
+				</div>
 			</div>
 		</div>
 		<div class="right-content cover-content" data-order="4">
-			<div class="right-content-inner gallery">
-				<div class="img-ctn"><div class="img-ctn-inner"></div></div><!--
-				--><div class="img-ctn"><div class="img-ctn-inner"></div></div><!--
-				--><div class="img-ctn"><div class="img-ctn-inner"></div></div><!--
-				--><div class="img-ctn"><div class="img-ctn-inner"></div></div><!--
-			--></div>
+			<div class="right-content-inner mailing-section">
+				<div class="mailingList">
+					<p class="description">
+						<span>Want to hear only about important updates ?</span>
+					</p>
+					{% include Somos/mailchimp-form.html %}
+				</div>
+			</div>
 		</div>
 		<div class="icon-ctn">
 			<div class="ring-ctn">
