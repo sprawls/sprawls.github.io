@@ -32,6 +32,13 @@ MOBILE
             line-height: 22px;
         }
     }
+    .steam-container {
+        width: 100%;
+
+        iframe {
+            width: 100%;
+        }
+    }
     .twitter-link {
         display: block;
         text-align: center;

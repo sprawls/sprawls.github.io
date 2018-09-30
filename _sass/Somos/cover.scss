@@ -157,6 +157,18 @@ $somos-font-family: "Open Sans", "arial", "helvetica", "sans serif";
         margin-left: auto;
     }
 
+    .steam-container {
+        width: 100%;
+
+        iframe {
+            width: 100%;
+        }
+    }
+    .social-ctn {
+        margin-top: 15px;
+        text-align: center;
+    }
+
     .mailingList {
         margin: 0 auto;
         .description {
@@ -393,6 +405,12 @@ $somos-font-family: "Open Sans", "arial", "helvetica", "sans serif";
             display: none;
         }
     }
+    /*.steam-container {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }*/
 }
 
 /**
