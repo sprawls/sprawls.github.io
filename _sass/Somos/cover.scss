@@ -214,7 +214,7 @@ $somos-font-family: "Open Sans", "arial", "helvetica", "sans serif";
             }                
         }
     }
-    .gif-ctn img {
+    .gif-ctn img, .gif-ctn iframe {
         max-width: 100%;
 
         @media screen and (max-height: 600px - 1) {
