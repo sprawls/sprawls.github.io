@@ -9,7 +9,7 @@ year:   "2018"
 team: "medium size"
 role : "Gameplay Programmer"
 
-video : "https://www.youtube.com/watch?v=t91sTPmfBk4"
+video : "https://www.youtube.com/embed/t91sTPmfBk4"
 localImage : 
 
 - "transference_1.png"

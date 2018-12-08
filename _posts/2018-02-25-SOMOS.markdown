@@ -3,13 +3,13 @@ layout: Portfolio/game
 category : game
 weight : 250
 title:  "SOMOS"
-engine: "Unity 5"
+engine: "Unity"
 style:  "Arcade Action Rhythm"
 year:   "2017-2018"
 team: "solo"
 role : ""
 
-video : ""
+video : "https://www.youtube.com/embed/XUuMDh4180o"
 localImage : 
 
 - "somos_1.png"
