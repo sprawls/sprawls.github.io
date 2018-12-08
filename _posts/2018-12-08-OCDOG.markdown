@@ -1,0 +1,23 @@
+---
+layout: Portfolio/gamejam
+category : game
+weight : 75
+title:  "OCDOG"
+engine: "Unity"
+style:  "Arcade Minigame"
+year:   "2018"
+team: "5"
+role : ""
+
+video : ""
+localImage : 
+
+- "OCDOG_1.png"
+- "OCDOG_2.png"
+- "OCDOG_3.png"
+
+image : ""
+link : "https://sprawl.itch.io/ocdog"
+---
+A game about OCD and Dogs.
+Made for Android.
