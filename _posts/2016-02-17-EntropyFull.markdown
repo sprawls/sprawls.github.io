@@ -19,7 +19,7 @@ localImage :
 image : ""
 link : "https://play.google.com/store/apps/details?id=com.StudioMastodonte.Entropy&hl=en"
 ---
-Entropy is a mobile puzzle game about balacing the universe. 
+Entropy is a mobile puzzle game about balancing the universe. 
 Rotate the elements to reach equilibrium in over 60 levels. With new twists and mechanics adding new layers of strategy while keeping it just as simple to play !
 
 Entropy is a complete version of a game I made during a gamejam. It's out on Android and completely free (no ads or micro-transactions) ! 
