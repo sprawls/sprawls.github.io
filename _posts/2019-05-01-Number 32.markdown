@@ -1,0 +1,31 @@
+---
+layout: Portfolio/gamejam
+category : game
+weight : 125
+title:  "Number 32"
+engine: "Unity"
+style:  "Arcade"
+year:   "2019"
+team: "solo"
+role : ""
+
+video : ""
+localImage : 
+
+- "img_32_1.png"
+- "img_32_2.png"
+
+image : ""
+link : "https://sprawl.itch.io/number-32"
+---
+32th Game, made for GMTK 2019
+This game contains only one...
+
+... minute of gameplay
+... mechanic
+... input
+... level
+... sprite
+... script
+... color
+... prefab
